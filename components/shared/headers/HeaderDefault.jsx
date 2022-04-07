@@ -29,7 +29,7 @@ class HeaderDefault extends Component {
                         <div className="header__left">
                             <Link href="/">
                                 <a className="ps-logo">
-                                 <h2>UTOPIKA</h2>
+                                 <h2 style={{color:"#AE2012"}}>U T O P I K A</h2>
                                 </a>
                             </Link>
                             <div className="menu--product-categories">
