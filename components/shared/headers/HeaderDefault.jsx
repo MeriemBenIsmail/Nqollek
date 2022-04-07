@@ -29,10 +29,7 @@ class HeaderDefault extends Component {
                         <div className="header__left">
                             <Link href="/">
                                 <a className="ps-logo">
-                                    <img
-                                        src="/static/img/logo_light.png"
-                                        alt="REDSYS" 
-                                    />
+                                 <h2>UTOPIKA</h2>
                                 </a>
                             </Link>
                             <div className="menu--product-categories">

@@ -129,7 +129,7 @@ class SearchHeader extends Component {
                     placeholder="I'm shopping for..."
                     onChange={this.handleSearch.bind(this)}
                 />
-                <button onClick={this.handleSubmit.bind(this)}>Search</button>
+                <button onClick={this.handleSubmit.bind(this)}>Chercher</button>
                 <div
                     className={`ps-panel--search-result${
                         searchPanel && searchPanel === true ? ' active ' : ''

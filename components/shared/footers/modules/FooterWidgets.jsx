@@ -9,10 +9,7 @@ const FooterWidgets = () => (
             <div className="widget_content">
                 <Link href="/">
                                     <a className="ps-logo" >
-                                        <img
-                                            src="/static/img/logo.png"
-                                            alt="REDSYS" style={{width:"80%"}}
-                                        />
+                                        <h1>UTOPIKA</h1>
                                     </a>
                 </Link>
                 <p>Call us 24/7</p>
