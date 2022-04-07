@@ -2,9 +2,9 @@ import React from 'react';
 
 const FooterCopyright = () => (
     <div className="ps-footer__copyright">
-        <p>© 2020 REDSYS. All Rights Reserved</p>
+        <p>© 2021 Nqollek. Droits réservés</p>
         <p>
-            <span>We Using Safe Payment For:</span>
+            <span>Paiement sécurisé accepté:</span>
             <a href="#">
                 <img src="/static/img/payment-method/1.jpg" alt="REDSYS" />
             </a>

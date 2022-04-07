@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 import Link from 'next/link';
 import NavigationDefault from '../navigation/NavigationDefault';
@@ -37,7 +38,7 @@ class HeaderDefault extends Component {
                             <div className="menu--product-categories">
                                 <div className="menu__toggle">
                                     <i className="icon-menu"></i>
-                                    <span> Shop by Department</span>
+                                    <span>Shopping Par Catégorie</span>
                                 </div>
                                 <div className="menu__content">
                                     <MenuCategories />

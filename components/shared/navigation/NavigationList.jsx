@@ -101,7 +101,7 @@ class NavigationList extends Component {
                     visible={this.state.cartDrawer}>
                     <div className="ps-panel--wrapper">
                         <div className="ps-panel__header">
-                            <h3>Shopping Cart</h3>
+                            <h3>Panier</h3>
                             <span
                                 className="ps-panel__close"
                                 onClick={this.handleDrawerClose}>
@@ -121,7 +121,7 @@ class NavigationList extends Component {
                     visible={this.state.searchDrawer}>
                     <div className="ps-panel--wrapper">
                         <div className="ps-panel__header">
-                            <h3>Search</h3>
+                            <h3>Rechercher</h3>
                             <span
                                 className="ps-panel__close"
                                 onClick={this.handleDrawerClose}>
@@ -141,7 +141,7 @@ class NavigationList extends Component {
                     visible={this.state.categoriesDrawer}>
                     <div className="ps-panel--wrapper">
                         <div className="ps-panel__header">
-                            <h3>Categories</h3>
+                            <h3>Catégories</h3>
                             <span
                                 className="ps-panel__close"
                                 onClick={this.handleDrawerClose}>
@@ -176,7 +176,7 @@ class NavigationList extends Component {
                         }`}
                         onClick={this.handleShowSearchDrawer}>
                         <i className="icon-magnifier"></i>
-                        <span> Search</span>
+                        <span>Rechercher</span>
                     </a>
                     <a
                         className={`navigation__item ${
@@ -184,7 +184,7 @@ class NavigationList extends Component {
                         }`}
                         onClick={this.handleShowCartDrawer}>
                         <i className="icon-bag2"></i>
-                        <span> Cart</span>
+                        <span>Panier</span>
                     </a>
                 </div>
             </div>

@@ -29,7 +29,7 @@ class NavigationDefault extends Component {
                         <div className="menu--product-categories">
                             <div className="menu__toggle">
                                 <i className="icon-menu"></i>
-                                <span> Shop by Department</span>
+                                <span> Shopping Par Catégorie</span>
                             </div>
                             <div className="menu__content">
                                 <Menu
@@ -47,7 +47,7 @@ class NavigationDefault extends Component {
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/account/order-tracking">
-                                    <a>Tract your order</a>
+                                    <a>Suivez votre commande</a>
                                 </Link>
                             </li>
                         </ul>

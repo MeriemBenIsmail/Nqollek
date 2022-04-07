@@ -83,10 +83,10 @@ class PanelCartMobile extends Component {
                         </h3>
                         <figure>
                             <Link href="/account/shopping-cart">
-                                <a className="ps-btn">View Cart</a>
+                                <a className="ps-btn">Voir Panier</a>
                             </Link>
                             <Link href="/account/checkout">
-                                <a className="ps-btn">Checkout</a>
+                                <a className="ps-btn">Valider</a>
                             </Link>
                         </figure>
                     </div>

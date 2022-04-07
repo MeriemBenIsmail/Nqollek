@@ -144,7 +144,7 @@ const FooterSecond = () => (
                 </div>
             </div>
             <div className="ps-footer__copyright">
-                <p>© 2018 REDSYS. All Rights Reserved</p>
+                <p>© 2021 Nqollek. All Rights Reserved</p>
                 <p>
                     <span>We Using Safe Payment For:</span>
                     <Link href="/page/blank">

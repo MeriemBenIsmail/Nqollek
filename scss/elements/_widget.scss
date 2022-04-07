@@ -324,9 +324,9 @@
     @extend %list-reset;
 
     .widget-title {
-        font-size: 16px;
+        font-size: 35px;
         margin-bottom: 30px;
-        color: $color-heading;
+        color: #AE2012;
         font-weight: 600;
     }
 }
@@ -340,6 +340,7 @@
         .ps-list--social {
             padding-top: 25px;
         }
+        
     }
 }
 

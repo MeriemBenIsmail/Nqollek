@@ -7,6 +7,7 @@ import SearchHeader from './modules/SearchHeader';
 import { stickyHeader } from '../../../utilities/common-helpers';
 
 class HeaderDefault extends Component {
+    // eslint-disable-next-line react/prop-types
     constructor({ props }) {
         super(props);
     }
@@ -30,14 +31,14 @@ class HeaderDefault extends Component {
                                 <a className="ps-logo">
                                     <img
                                         src="/static/img/logo_light.png"
-                                        alt="REDSYS"
+                                        alt="REDSYS" 
                                     />
                                 </a>
                             </Link>
                             <div className="menu--product-categories">
-                                <div className="menu__toggle">
+                                <div className="menu__toggle" >
                                     <i className="icon-menu"></i>
-                                    <span> Shop by Department</span>
+                                    <h2 style={{fontSize:"22px",marginTop:"10px"}}>Shopping par catégorie</h2>
                                 </div>
                                 <div className="menu__content">
                                     <MenuCategories />

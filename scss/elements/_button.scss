@@ -167,7 +167,7 @@ button.ps-btn {
 
     &:hover,
     &:active {
-        background-color: #222;
+        background-color: #FF8811;
         color: #fff;
 
         &.ps-btn--black {
@@ -246,17 +246,19 @@ button.ps-btn {
     height: 45px;
     z-index: 10000;
     background-color: #fff;
-    border: 1px solid #eaeaea;
+    border: 1px solid #75DBCD;
+    border-radius: 50%;
 
     i {
-        color: $color-text;
+        color: #75DBCD;
     }
 
     &:hover {
         cursor: pointer;
-        border-color: $color-1st;
+        border-color: #FF8811;
+        background-color: #FF8811;
         i {
-            color: $color-1st;
+            color: #fff;
         }
     }
 
