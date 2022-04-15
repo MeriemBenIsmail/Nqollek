@@ -39,7 +39,7 @@ class PanelCartMobile extends Component {
                                                         ? product.thumbnail.url
                                                         : `${baseUrl}${product.thumbnail.url}`
                                                 }
-                                                alt="REDSYS"
+                                                alt="UTOPIKA"
                                             />
                                         </a>
                                     </Link>
@@ -72,7 +72,7 @@ class PanelCartMobile extends Component {
                         ))
                     ) : (
                         <div className="ps-cart__items">
-                            <span>No products in cart</span>
+                            <span>Panier Vide</span>
                         </div>
                     )}
                 </div>

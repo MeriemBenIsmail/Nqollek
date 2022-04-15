@@ -68,7 +68,7 @@ const FooterWidgets = () => (
             <h4 className="widget-title">A PROPOS</h4>
             <div className="widget_content">
                 <p>
-                “Nqollek.tn” est une marketplace 
+                “UTOPIKA” est une marketplace 
                 d’expériences et de cadeaux en ligne.
                 Nous croyons fermement en vous, jeunes talents. Nous avons
                 foi dans le potentiel créatif des Tunisiens. C’est pour toutes ces

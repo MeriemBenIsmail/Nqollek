@@ -11,11 +11,11 @@ import NavigationList from '../../components/shared/navigation/NavigationList';
 const UserInformationPage = () => {
     const breadCrumb = [
         {
-            text: 'Home',
+            text: 'Accueil',
             url: '/',
         },
         {
-            text: 'User Information',
+            text: 'Informations Utilisateur',
         },
     ];
 

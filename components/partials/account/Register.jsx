@@ -33,18 +33,18 @@ class Register extends Component {
                         <ul className="ps-tab-list">
                             <li>
                                 <Link href="/account/login">
-                                    <a>Login</a>
+                                    <a>Se Connecter</a>
                                 </Link>
                             </li>
                             <li className="active">
                                 <Link href="/account/register">
-                                    <a>Register</a>
+                                    <a>S'inscrire</a>
                                 </Link>
                             </li>
                         </ul>
                         <div className="ps-tab active" id="register">
                             <div className="ps-form__content">
-                                <h5>Register An Account</h5>
+                                <h5>Créer Un Compte</h5>
                                 <div className="form-group">
                                     <Form.Item
                                         name="email"
@@ -52,13 +52,13 @@ class Register extends Component {
                                             {
                                                 required: true,
                                                 message:
-                                                    'Please input your email!',
+                                                    'Veuillez saisir votre email!',
                                             },
                                         ]}>
                                         <Input
                                             className="form-control"
                                             type="email"
-                                            placeholder="Email address"
+                                            placeholder="addresse email"
                                         />
                                     </Form.Item>
                                 </div>
@@ -69,13 +69,13 @@ class Register extends Component {
                                             {
                                                 required: true,
                                                 message:
-                                                    'Please input your password!',
+                                                    'Veuillez saisir votre mot de passe',
                                             },
                                         ]}>
                                         <Input
                                             className="form-control"
                                             type="password"
-                                            placeholder="Password..."
+                                            placeholder="mot de passe..."
                                         />
                                     </Form.Item>
                                 </div>
@@ -83,12 +83,12 @@ class Register extends Component {
                                     <button
                                         type="submit"
                                         className="ps-btn ps-btn--fullwidth">
-                                        Register
+                                        S'inscrire
                                     </button>
                                 </div>
                             </div>
                             <div className="ps-form__footer">
-                                <p>Connect with:</p>
+                                <p>Se Connecter Avec:</p>
                                 <ul className="ps-list--social">
                                     <li>
                                         <a className="facebook" href="#">

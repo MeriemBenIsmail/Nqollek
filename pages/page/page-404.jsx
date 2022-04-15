@@ -18,12 +18,12 @@ const Page404 = () => {
                     <div className="ps-section__content">
                         <figure>
                             <img src="/static/img/404.jpg" alt="" />
-                            <h3>Ohh! Page not found</h3>
+                            <h3>Ohh! Page introuvable</h3>
                             <p>
-                                It seems we can't find what you're looking for.
-                                Perhaps searching can help or go back to
+                                Ca semble qu'on n'a pas trouvé ce que vous cherchez.
+                                Retour à la page d'
                                 <Link href="/">
-                                    <a> Homepage</a>
+                                    <a> accueil</a>
                                 </Link>
                             </p>
                         </figure>
@@ -34,7 +34,7 @@ const Page404 = () => {
                             <input
                                 className="form-control"
                                 type="text"
-                                placeholder="Search..."
+                                placeholder="Rechercher..."
                             />
                             <button>
                                 <i className="icon-magnifier"></i>

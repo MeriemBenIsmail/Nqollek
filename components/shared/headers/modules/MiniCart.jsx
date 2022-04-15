@@ -90,7 +90,7 @@ class MiniCart extends Component {
                             </h3>
                             <figure>
                                 <Link href="/account/shopping-cart">
-                                    <a className="ps-btn">View Cart</a>
+                                    <a className="ps-btn">Voir Panier</a>
                                 </Link>
                                 <Link href="/account/checkout">
                                     <a className="ps-btn">Checkout</a>
@@ -101,7 +101,7 @@ class MiniCart extends Component {
                 ) : (
                     <div className="ps-cart__content">
                         <div className="ps-cart__items">
-                            <span>No products in cart</span>
+                            <span>Panier Vide</span>
                         </div>
                     </div>
                 )}

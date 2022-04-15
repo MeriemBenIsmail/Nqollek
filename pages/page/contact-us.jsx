@@ -13,11 +13,11 @@ import ContactMap from '../../components/partials/page/ContactMap';
 const ContactUsPage = () => {
     const breadCrumb = [
         {
-            text: 'Home',
+            text: 'Accueil',
             url: '/',
         },
         {
-            text: 'ContactUs',
+            text: 'Contact',
         },
     ];
 

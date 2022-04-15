@@ -108,11 +108,11 @@
             },
             {
                 "text": "Créer une boutique",
-                "url": "/"
+                "url": "/vendor/become-a-vendor"
             },
             {
                 "text": "S'inscrire",
-                "url": "/"
+                "url": "/account/register"
             },
             {
                 "text": "Blog",

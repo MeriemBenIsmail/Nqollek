@@ -10,7 +10,7 @@ import NavigationList from '../../components/shared/navigation/NavigationList';
 const FaqsPage = () => {
     const breadCrumb = [
         {
-            text: 'Home',
+            text: 'Accueil',
             url: '/',
         },
         {

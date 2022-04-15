@@ -14,7 +14,7 @@ const OrderTrackingPage = () => {
             url: '/',
         },
         {
-            text: 'Order Tracking',
+            text: 'Suivie de commande',
         },
     ];
     return (

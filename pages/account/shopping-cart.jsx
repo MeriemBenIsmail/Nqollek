@@ -14,7 +14,7 @@ const ShoppingCartPage = () => {
             url: '/',
         },
         {
-            text: 'Shopping Cart',
+            text: 'Panier',
         },
     ];
     return (

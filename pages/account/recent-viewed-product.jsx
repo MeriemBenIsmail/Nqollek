@@ -15,7 +15,7 @@ const RecentViewedProductsPage = () => {
             url: '/',
         },
         {
-            text: 'Recent Viewed Products',
+            text: 'Produits récemment consultés',
         },
     ];
     return (

@@ -67,7 +67,7 @@ class HeaderProduct extends Component {
                             <div className="menu--product-categories">
                                 <div className="menu__toggle">
                                     <i className="icon-menu"></i>
-                                    <span> Shop by Department</span>
+                                    <span>Shopping par catégorie</span>
                                 </div>
                                 <div className="menu__content">
                                     <MenuCategories />
@@ -125,7 +125,7 @@ class HeaderProduct extends Component {
                                         onClick={(e) =>
                                             this.handleAddItemToCart(e)
                                         }>
-                                        Add to Cart
+                                        Ajouter Au Panier
                                     </a>
                                 </div>
                             </div>
