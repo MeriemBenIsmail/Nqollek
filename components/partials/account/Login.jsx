@@ -45,18 +45,18 @@ class Login extends Component {
                         <ul className="ps-tab-list">
                             <li className="active">
                                 <Link href="/account/login">
-                                    <a>Login</a>
+                                    <a>Se Connecter</a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/account/register">
-                                    <a>Register</a>
+                                    <a>S'inscrire</a>
                                 </Link>
                             </li>
                         </ul>
                         <div className="ps-tab active" id="sign-in">
                             <div className="ps-form__content">
-                                <h5>Log In Your Account</h5>
+                                <h5>Connectez-Vous à votre compte</h5>
                                 <div className="form-group">
                                     <Form.Item
                                         name="username"
@@ -64,13 +64,13 @@ class Login extends Component {
                                             {
                                                 required: true,
                                                 message:
-                                                    'Please input your email!',
+                                                    'Veuillez saisir votre email!',
                                             },
                                         ]}>
                                         <Input
                                             className="form-control"
                                             type="text"
-                                            placeholder="Username or email address"
+                                            placeholder="nom d'utlisateur ou email"
                                         />
                                     </Form.Item>
                                 </div>
@@ -81,13 +81,13 @@ class Login extends Component {
                                             {
                                                 required: true,
                                                 message:
-                                                    'Please input your password!',
+                                                    'Veuillez saisir votre mot de passe !',
                                             },
                                         ]}>
                                         <Input
                                             className="form-control"
                                             type="password"
-                                            placeholder="Password..."
+                                            placeholder="mot de passe..."
                                         />
                                     </Form.Item>
                                 </div>
@@ -100,7 +100,7 @@ class Login extends Component {
                                             name="remember-me"
                                         />
                                         <label htmlFor="remember-me">
-                                            Rememeber me
+                                            Se Souvenir De Moi
                                         </label>
                                     </div>
                                 </div>
@@ -108,12 +108,12 @@ class Login extends Component {
                                     <button
                                         type="submit"
                                         className="ps-btn ps-btn--fullwidth">
-                                        Login
+                                        Se Connecter
                                     </button>
                                 </div>
                             </div>
                             <div className="ps-form__footer">
-                                <p>Connect with:</p>
+                                <p>Se Connecter Avec:</p>
                                 <ul className="ps-list--social">
                                     <li>
                                         <a

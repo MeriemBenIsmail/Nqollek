@@ -12,11 +12,11 @@ import NavigationList from '../../components/shared/navigation/NavigationList';
 const AboutUsPage = () => {
     const breadCrumb = [
         {
-            text: 'Home',
+            text: 'Accueil',
             url: '/',
         },
         {
-            text: 'About Us',
+            text: 'A Propos',
         },
     ];
     return (

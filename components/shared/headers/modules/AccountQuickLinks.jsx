@@ -57,7 +57,7 @@ class AccountQuickLinks extends Component {
                                 <a
                                     href="#"
                                     onClick={this.handleLogout.bind(this)}>
-                                    Logout
+                                    Se Déconnecter
                                 </a>
                             </li>
                         </ul>
@@ -72,10 +72,10 @@ class AccountQuickLinks extends Component {
                     </div>
                     <div className="ps-block__right">
                         <Link href="/account/login">
-                            <a>Login</a>
+                            <a>Se Connecter</a>
                         </Link>
                         <Link href="/account/register">
-                            <a>Register</a>
+                            <a>S'inscrire</a>
                         </Link>
                     </div>
                 </div>

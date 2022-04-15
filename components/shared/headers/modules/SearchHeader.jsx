@@ -115,13 +115,13 @@ class SearchHeader extends Component {
                 action="/"
                 onSubmit={this.handleSubmit.bind(this)}>
                 <div className="ps-form__categories">
-                    <select className="form-control">
+                    {/*<select className="form-control">
                         {exampleCategories.map(option => (
                             <option value={option} key={option}>
                                 {option}
                             </option>
                         ))}
-                    </select>
+                        </select>*/}
                 </div>
                 <input
                     className="form-control"
@@ -129,7 +129,7 @@ class SearchHeader extends Component {
                     placeholder="I'm shopping for..."
                     onChange={this.handleSearch.bind(this)}
                 />
-                <button onClick={this.handleSubmit.bind(this)}>Search</button>
+                <button onClick={this.handleSubmit.bind(this)}>Chercher</button>
                 <div
                     className={`ps-panel--search-result${
                         searchPanel && searchPanel === true ? ' active ' : ''
@@ -143,12 +143,12 @@ class SearchHeader extends Component {
                                 />
                             ))
                         ) : (
-                            <span>Not found! Try with another keyword.</span>
+                            <span>Résultat Introuvable!</span>
                         )}
                     </div>
                     <div className="ps-panel__footer text-center">
                         <Link href="/search">
-                            <a>See all results</a>
+                            <a>Voir tous les résultats</a>
                         </Link>
                     </div>
                 </div>

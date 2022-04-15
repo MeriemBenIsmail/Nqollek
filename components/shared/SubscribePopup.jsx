@@ -40,13 +40,12 @@ class SubscribePopup extends Component {
                             method="get">
                             <div className="ps-form__content">
                                 <h4>
-                                    Get <strong>25%</strong> Discount
+                                    Profitez de <strong>25%</strong> Promotion
                                 </h4>
                                 <p>
-                                    Subscribe to the REDSYS mailing list{' '}
-                                    <br /> to receive updates on new arrivals,
-                                    special offers
-                                    <br /> and our promotions.
+                                    Abonnez-vous à UTOPIKA  mailing list{' '}
+                                    <br /> pour recevoir des notifications sur des nouveaux arrivage, des offres spécials
+                                    <br /> et nos promotions.
                                 </p>
                                 <div className="form-group">
                                     <input
@@ -56,7 +55,7 @@ class SubscribePopup extends Component {
                                         required
                                     />
                                     <button className="ps-btn">
-                                        Subscribe
+                                        S'abonner
                                     </button>
                                 </div>
                                 <div className="ps-checkbox">
@@ -67,7 +66,7 @@ class SubscribePopup extends Component {
                                         name="not-show"
                                     />
                                     <label htmlFor="not-show">
-                                        Don't show this popup again
+                                        Ne plus afficher
                                     </label>
                                 </div>
                             </div>

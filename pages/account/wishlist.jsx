@@ -10,11 +10,11 @@ import NavigationList from '../../components/shared/navigation/NavigationList';
 const WishlistPage = () => {
     const breadCrumb = [
         {
-            text: 'Home',
+            text: 'Accueil',
             url: '/',
         },
         {
-            text: 'Wishlist',
+            text: 'Favoris',
         },
     ];
     return (

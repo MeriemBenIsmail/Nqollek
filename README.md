@@ -1,4 +1,4 @@
-## JEI-RedSys-ClientSide
+## JEI-Nqollek-ClientSide
 ### Installation
 ```bash
 npm install
@@ -15,4 +15,7 @@ Or
 ```bash
 npm run dev 
 ```
+### Node Version
+```bash
+v12.13.0
 

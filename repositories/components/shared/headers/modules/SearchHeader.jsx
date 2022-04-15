@@ -52,7 +52,7 @@ class SearchHeader extends Component {
         const {searchResults} = this.props;
         const exampleCategories = [
             'All',
-            'Babies & Moms',
+            'Accessoires & Pierres précieuses',
             'Books & Office',
             'Cars & Motocycles',
             'Clothing & Apparel',
@@ -126,10 +126,10 @@ class SearchHeader extends Component {
                 <input
                     className="form-control"
                     type="text"
-                    placeholder="I'm shopping for..."
+                    placeholder="Je cherche..."
                     onChange={this.handleSearch.bind(this)}
                 />
-                <button onClick={this.handleSubmit.bind(this)}>Search</button>
+                <button onClick={this.handleSubmit.bind(this)}>Rechercher</button>
                 <div
                     className={`ps-panel--search-result${
                         searchPanel && searchPanel === true ? ' active ' : ''

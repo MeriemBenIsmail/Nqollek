@@ -14,7 +14,7 @@ const PaymentPage = () => {
             url: '/',
         },
         {
-            text: 'Shopping Cart',
+            text: 'Panier',
             url: '/account/shopping-cart',
         },
         {

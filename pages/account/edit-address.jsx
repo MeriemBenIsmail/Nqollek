@@ -15,7 +15,7 @@ const MyAccountPage = () => {
             url: '/',
         },
         {
-            text: 'Edit address',
+            text: "Modifier l'addresse",
         },
     ];
     return (

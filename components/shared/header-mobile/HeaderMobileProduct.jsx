@@ -26,7 +26,7 @@ class HeaderMobileProduct extends React.Component {
                                 className="header__back"
                             >
                                 <i className="icon-chevron-left"></i>
-                                <strong>Back to previous</strong>
+                                <strong>Retour</strong>
                             </a>
                         </Link>
 

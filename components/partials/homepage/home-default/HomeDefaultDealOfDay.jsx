@@ -21,11 +21,11 @@ class HomeDefaultDealOfDay extends Component {
                     <div className="ps-section__header">
                         <div className="ps-block--countdown-deal">
                             <div className="ps-block__left">
-                                <h3>Deal of the day</h3>
+                                <h3>L'Affaire Du Jour</h3>
                             </div>
                             <div className="ps-block__right">
                                 <figure>
-                                    <figcaption>End in:</figcaption>
+                                    <figcaption>Expire dans:</figcaption>
                                     <CountDownSimple
                                         timeTillDate="12 31 2021, 6:00 am"
                                         timeFormat="MM DD YYYY, h:mm a"
@@ -34,7 +34,7 @@ class HomeDefaultDealOfDay extends Component {
                             </div>
                         </div>
                         <Link href="/shop">
-                            <a>View all</a>
+                            <a>Voir Tous</a>
                         </Link>
                     </div>
                     <div className="ps-section__content">

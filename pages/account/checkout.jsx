@@ -9,11 +9,11 @@ import NavigationList from '../../components/shared/navigation/NavigationList';
 const OrderTrackingPage = () => {
     const breadCrumb = [
         {
-            text: 'Home',
+            text: 'Accueil',
             url: '/',
         },
         {
-            text: 'Shopping Cart',
+            text: 'Panier',
             url: '/account/shopping-cart',
         },
         {

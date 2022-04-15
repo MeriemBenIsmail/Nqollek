@@ -435,7 +435,7 @@
         color: #fff;
         border-radius: 3px;
         line-height: 1;
-        background-color: #f14705;
+        background-color: #FF8811;
 
         figcaption {
             color: #ffffff;
@@ -2476,6 +2476,7 @@
     @extend %list-reset;
     z-index: 10;
     overflow: hidden;
+    cursor: pointer;
 
     img {
         width: 100%;
@@ -2484,10 +2485,11 @@
     &:before {
         content: '';
         @include max-area;
-        background-color: rgba($color-1st, 0.95);
+        background-color: rgba($color-1st, 0.75);
         z-index: 10;
         transition: all 0.4s ease;
         @include hidden;
+        
     }
 
     .ps-block__content {
@@ -2503,10 +2505,11 @@
 
         h4 {
             font-weight: 600;
+            color: #fff;
         }
 
         p {
-            color: $color-heading;
+            color: #fff;
         }
 
         ul {

@@ -8,7 +8,7 @@ const Newsletters = ({ layout }) => (
                     <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ">
                         <div className="ps-form__left">
                             <h3>Newsletter</h3>
-                            <p>Subcribe to get information about products and coupons</p>
+                            <p>Abonnez-vous pour profiter des informations à propos nos produits.</p>
                         </div>
                     </div>
                     <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 ">
@@ -19,7 +19,7 @@ const Newsletters = ({ layout }) => (
                                     type="email"
                                     placeholder="Email address"
                                 />
-                                <button className="ps-btn">Subscribe</button>
+                                <button className="ps-btn">S'abonner</button>
                             </div>
                         </div>
                     </div>

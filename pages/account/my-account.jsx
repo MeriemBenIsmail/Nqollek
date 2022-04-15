@@ -18,7 +18,7 @@ class MyAccountPage extends Component {
                     url: '/',
                 },
                 {
-                    text: 'My Account',
+                    text: 'Mon Compte',
                 },
             ],
         };
