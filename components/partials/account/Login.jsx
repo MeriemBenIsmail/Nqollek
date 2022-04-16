@@ -28,11 +28,10 @@ class Login extends Component {
         });
     }
 
-    handleLoginSubmit = e => {
+    handleLoginSubmit = (e) => {
         console.log('test');
         this.props.dispatch(login());
         Router.push('/');
-
     };
 
     render() {
@@ -119,7 +118,7 @@ class Login extends Component {
                                         <a
                                             className="facebook"
                                             href="#"
-                                            onClick={e =>
+                                            onClick={(e) =>
                                                 this.handleFeatureWillUpdate(e)
                                             }>
                                             <i className="fa fa-facebook"></i>
@@ -129,7 +128,7 @@ class Login extends Component {
                                         <a
                                             className="google"
                                             href="#"
-                                            onClick={e =>
+                                            onClick={(e) =>
                                                 this.handleFeatureWillUpdate(e)
                                             }>
                                             <i className="fa fa-google-plus"></i>
@@ -139,7 +138,7 @@ class Login extends Component {
                                         <a
                                             className="twitter"
                                             href="#"
-                                            onClick={e =>
+                                            onClick={(e) =>
                                                 this.handleFeatureWillUpdate(e)
                                             }>
                                             <i className="fa fa-twitter"></i>
@@ -149,7 +148,7 @@ class Login extends Component {
                                         <a
                                             className="instagram"
                                             href="#"
-                                            onClick={e =>
+                                            onClick={(e) =>
                                                 this.handleFeatureWillUpdate(e)
                                             }>
                                             <i className="fa fa-instagram"></i>
@@ -164,7 +163,7 @@ class Login extends Component {
         );
     }
 }
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
     return state.auth;
 };
 export default connect(mapStateToProps)(Login);

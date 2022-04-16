@@ -39,7 +39,7 @@ class ProductDefaultPage extends React.Component {
             this.props.dispatch(getProductsById(pid));
             this.props.dispatch(getCollections(collectionsParams));
         }
-        Router.events.on('routeChangeStart', url => {
+        Router.events.on('routeChangeStart', (url) => {
             const nextPid = url.split('/').pop();
             if (nextPid !== '' && isNaN(parseInt(nextPid)) === false) {
                 this.props.dispatch(getProductsById(nextPid));
@@ -100,4 +100,4 @@ class ProductDefaultPage extends React.Component {
     }
 }
 
-export default connect(state => state.product)(ProductDefaultPage);
+export default connect((state) => state.product)(ProductDefaultPage);
