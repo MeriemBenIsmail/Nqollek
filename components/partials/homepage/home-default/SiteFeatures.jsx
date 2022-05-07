@@ -9,8 +9,8 @@ const SiteFeatures = () => (
                         <i className="icon-rocket"></i>
                     </div>
                     <div className="ps-block__right">
-                        <h4>Free Delivery</h4>
-                        <p>For all oders over $99</p>
+                        <h4>Livraison gratuite</h4>
+                        <p>Pour les commandes de plus de 100DT</p>
                     </div>
                 </div>
                 <div className="ps-block__item">
@@ -27,8 +27,8 @@ const SiteFeatures = () => (
                         <i className="icon-credit-card"></i>
                     </div>
                     <div className="ps-block__right">
-                        <h4>Secure Payment</h4>
-                        <p>100% secure payment</p>
+                        <h4>Payment sécurisé</h4>
+                        <p>Payment 100% sécurisé</p>
                     </div>
                 </div>
                 <div className="ps-block__item">
@@ -45,8 +45,8 @@ const SiteFeatures = () => (
                         <i className="icon-gift"></i>
                     </div>
                     <div className="ps-block__right">
-                        <h4>Gift Service</h4>
-                        <p>Support gift service</p>
+                        <h4>Service de packaging</h4>
+                        <p>Support service de packaging</p>
                     </div>
                 </div>
             </div>

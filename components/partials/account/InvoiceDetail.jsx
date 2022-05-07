@@ -94,8 +94,8 @@ class InvoiceDetail extends Component {
                                 <div className="ps-section--account-setting">
                                     <div className="ps-section__header">
                                         <h3>
-                                            Invoice #500884010 -
-                                            <strong>Successful delivery</strong>
+                                            Achat #500884010 -
+                                            <strong>Livré avec succés</strong>
                                         </h3>
                                     </div>
                                     <div className="ps-section__content">
@@ -123,11 +123,11 @@ class InvoiceDetail extends Component {
                                             <div className="col-md-4 col-12">
                                                 <figure className="ps-block--invoice">
                                                     <figcaption>
-                                                        Shipping Fee
+                                                        Frais de livraison
                                                     </figcaption>
                                                     <div className="ps-block__content">
                                                         <p>
-                                                            Shipping Fee: Free
+                                                            Frais de livraison: gratuit
                                                         </p>
                                                     </div>
                                                 </figure>
@@ -139,7 +139,7 @@ class InvoiceDetail extends Component {
                                                     </figcaption>
                                                     <div className="ps-block__content">
                                                         <p>
-                                                            Payment Method: Visa
+                                                            Méthode de payment: Visa
                                                         </p>
                                                     </div>
                                                 </figure>
@@ -149,10 +149,10 @@ class InvoiceDetail extends Component {
                                             <table className="table ps-table--shopping-cart">
                                                 <thead>
                                                     <tr>
-                                                        <th>Product</th>
-                                                        <th>Price</th>
-                                                        <th>Quantity</th>
-                                                        <th>Amount</th>
+                                                        <th>Produit</th>
+                                                        <th>Prix</th>
+                                                        <th>Quantité</th>
+                                                        <th>Montant</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -191,7 +191,7 @@ class InvoiceDetail extends Component {
                                         </div>
                                         <Link href="/account/invoices">
                                             <a className="ps-btn ps-btn--sm ">
-                                                Back to invoices
+                                                Retour aux achats
                                             </a>
                                         </Link>
                                     </div>

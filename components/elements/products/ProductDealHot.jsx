@@ -51,9 +51,9 @@ class ProductDealHot extends React.Component {
                             </div>
                             <div className="ps-product__specification">
                                 <p>
-                                    Status:
+                                    Etat:
                                     <strong className="in-stock">
-                                        In Stock
+                                        En Stock
                                     </strong>
                                 </p>
                             </div>

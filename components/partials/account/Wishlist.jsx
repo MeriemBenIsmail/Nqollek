@@ -25,12 +25,12 @@ class Wishlist extends Component {
             <div className="ps-section--shopping ps-whishlist">
                 <div className="container">
                     <div className="ps-section__header">
-                        <h1>Wishlist</h1>
+                        <h1>Favoris</h1>
                     </div>
                     <div className="ps-section__content">
                         {wishlistItems && wishlistItems.length === 0 ? (
                             <div className="alert alert-danger" role="alert">
-                                Wishlist is empty!
+                                La liste des favoris est vide!
                             </div>
                         ) : (
                             <div className="table-responsive">
@@ -38,9 +38,9 @@ class Wishlist extends Component {
                                     <thead>
                                         <tr>
                                             <th></th>
-                                            <th>Product name</th>
-                                            <th>Unit Price</th>
-                                            <th>Vendor</th>
+                                            <th>Nom du produit</th>
+                                            <th>Unité de prix</th>
+                                            <th>Boutique</th>
                                             <th></th>
                                         </tr>
                                     </thead>
@@ -78,7 +78,7 @@ class Wishlist extends Component {
                                                                 product
                                                             )
                                                         }>
-                                                        Add to cart
+                                                        Ajouter au panier
                                                     </a>
                                                 </td>
                                             </tr>

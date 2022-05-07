@@ -19,6 +19,7 @@ import HomeDefaultTopCategories from '../components/partials/homepage/home-defau
 import SubscribePopup from '../components/shared/SubscribePopup';
 import { getCollections } from '../store/collection/action';
 import { getBannersBySlugs, getPromotionsBySlugs } from '../store/media/action';
+import { parseCookies } from 'nookies';
 
 
 class Index extends Component {
@@ -61,8 +62,12 @@ class Index extends Component {
         }, 10000);
     }
 
+     
+     
     render() {
         const { subscribe } = this.state;
+      const { API_URL } = process.env
+      console.log(API_URL)
         return (
             <div className="site-content">
                 <HeaderDefault />
@@ -78,9 +83,9 @@ class Index extends Component {
                     <ConumerElectronics collectionSlug="consumer-electronics" />
                     <Clothings collectionSlug="clothings" />
                     <GardenAndKitchen collectionSlug="garden-and-kitchen" />
-                    <HomeAds />
-                    <DownLoadApp />
-                    <NewArrivals collectionSlug="new-arrivals-products" />
+                   
+                  
+                   
                     <Newletters />
                 </main>
                 <FooterFullwidth />

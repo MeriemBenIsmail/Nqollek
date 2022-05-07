@@ -93,7 +93,7 @@ class PanelCartMobile extends Component {
                 ) : (
                     <div className="ps-cart__footer">
                         <Link href="/shop">
-                            <a className="ps-btn ps-btn--fullwidth">Shop now</a>
+                            <a className="ps-btn ps-btn--fullwidth">Voir Catalogue</a>
                         </Link>
                     </div>
                 )}

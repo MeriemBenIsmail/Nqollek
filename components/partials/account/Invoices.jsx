@@ -55,7 +55,7 @@ class Invoices extends Component {
                             <div className="ps-page__content">
                                 <div className="ps-section--account-setting">
                                     <div className="ps-section__header">
-                                        <h3>Invoices</h3>
+                                        <h3>Achats</h3>
                                     </div>
                                     <div className="ps-section__content">
                                         <TableInvoices />

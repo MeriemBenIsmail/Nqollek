@@ -25,7 +25,7 @@ class HeaderMobile extends Component {
                             </li>
                             <li>
                                 <Link href="/account/order-tracking">
-                                    <a>Tract your order</a>
+                                    <a>Suivre votre commande</a>
                                 </Link>
                             </li>
                             <li>
@@ -41,10 +41,7 @@ class HeaderMobile extends Component {
                     <div className="navigation__left">
                         <Link href="/">
                             <a className="ps-logo">
-                                <img
-                                    src="/static/img/logo_light.png"
-                                    alt="REDSYS"
-                                />
+                                <h2 style={{color:"#c4cad0"}}>U T O P I K A</h2>
                             </a>
                         </Link>
                     </div>

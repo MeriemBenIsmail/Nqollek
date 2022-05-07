@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 const Links = {
-    consumerElectric: [
+    AccesoiresEtPierresPrécieuses: [
         {
             text: 'Air Conditioners',
             url: '/shop'
@@ -178,8 +178,8 @@ const Links = {
 const FooterLinks = () => (
     <div className="ps-footer__links">
         <p>
-            <strong>Consumer Electric:</strong>
-            {Links.consumerElectric.map(item => (
+            <strong>Accessoires Et Pierres Précieuses:</strong>
+            {Links.AccesoiresEtPierresPrécieuses.map(item => (
                 <Link href={item.url} key={item.text}>
                     <a>{item.text}</a>
                 </Link>

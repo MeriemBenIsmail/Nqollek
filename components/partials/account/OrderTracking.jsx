@@ -4,29 +4,29 @@ const OrderTracking = () => (
     <div className="ps-order-tracking">
         <div className="container">
             <div className="ps-section__header">
-                <h3>Order Tracking</h3>
+                <h3>Suivie de commande</h3>
                 <p>
-                    To track your order please enter your Order ID in the box below and press the
-                    "Track" button. This was given to youon your receipt and in the confirmation
-                    email you should have received.
+                    Pour suivre vos commandes, veuillez saisir l'identifiant de votre commande
+                    dans le champs ci-dessous et appuyez sur le bouton "Suivre".Cet identifiant
+                    vous a été fourni dans la facture et également dans l'email de confirmation envoyé.
                 </p>
             </div>
             <div className="ps-section__content">
                 <form className="ps-form--order-tracking" action="/" method="get">
                     <div className="form-group">
-                        <label>Order ID</label>
+                        <label>ID Commande</label>
                         <input
                             className="form-control"
                             type="text"
-                            placeholder="Found in your order confimation email"
+                            placeholder="Indiqué dans l'email de confirmation"
                         />
                     </div>
                     <div className="form-group">
-                        <label>Billing Email</label>
+                        <label>Email de facture</label>
                         <input className="form-control" type="text" placeholder="" />
                     </div>
                     <div className="form-group">
-                        <button className="ps-btn ps-btn--fullwidth">Track Your Order</button>
+                        <button className="ps-btn ps-btn--fullwidth">Suivre votre commande</button>
                     </div>
                 </form>
             </div>

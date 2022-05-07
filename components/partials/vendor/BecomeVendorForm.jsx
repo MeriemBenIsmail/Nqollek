@@ -1,57 +1,66 @@
-import React, { Component } from 'react';
+import React, { Component , useState} from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
-import { login } from '../../../store/auth/action';
 import fetch from 'isomorphic-unfetch'
-import { setCookie } from "nookies"
-import { Form, Input } from 'antd';
+import { Form, Input, notification } from 'antd';
 import { connect } from 'react-redux';
 
-class Register extends Component {
+class BecomeVendor extends Component {
     constructor(props) {
         super(props);
         this.state = {
             email:'',
-            password:'',
-            username:''
+            password:''
         };
     }
 
-   async handleRegisterSubmit(){
+    handleFeatureWillUpdate(e) {
+        e.preventDefault();
+        notification.open({
+            message: 'Opp! Something went wrong.',
+            description: 'This feature has been updated later!',
+            duration: 500,
+        });
+    }
+
+   
+
+    async handleSubmit()  {
        
         const {API_URL} = process.env;
-        const registerInfo = {
-            username:this.state.username,
-            email: this.state.email,
+        const loginInfo = {
+            identifier: this.state.email,
             password: this.state.password
         }
-        
       
-        const registerOp = await fetch(`${API_URL}/api/auth/local/register`, {
+        const loginOp = await fetch(`${API_URL}/api/auth/local`, {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
                 
            },
-            body: JSON.stringify(registerInfo)
+            body: JSON.stringify(loginInfo)
         })
    
-        const registerResponse = await registerOp.json()
-        console.log(registerResponse)
-        if(!registerResponse.error) {
-            setCookie(null, 'jwt', registerResponse.jwt, {
+        const loginResponse = await loginOp.json()
+        
+        if(!loginResponse.error) {
+            setCookie(null, 'jwt', loginResponse.jwt, {
                 maxAge: 30* 24 * 60 * 60,
                 path:'/',
             })
+           
             this.props.dispatch(login());
             Router.push('/')
         }
         else {
-            console.log(registerResponse)
+            console.log(loginResponse)
         }
-       
-    };
+        
+
+    }
+    
 
     render() {
         return (
@@ -59,22 +68,18 @@ class Register extends Component {
                 <div className="container">
                     <Form
                         className="ps-form--account"
-                        onFinish={this.handleRegisterSubmit.bind(this)}>
+                        onFinish={this.handleSubmit.bind(this)}>
                         <ul className="ps-tab-list">
-                            <li>
-                                <Link href="/account/login">
-                                    <a>Se Connecter</a>
-                                </Link>
-                            </li>
                             <li className="active">
-                                <Link href="/account/register">
-                                    <a>S'inscrire</a>
-                                </Link>
+                              
+                                    Créer Une Boutique
+                          
                             </li>
+                          
                         </ul>
-                        <div className="ps-tab active" id="register">
+                        <div className="ps-tab active" id="sign-in">
                             <div className="ps-form__content">
-                                <h5>Créer Un Compte</h5>
+                                <h5>Devenez un vendeur nqollek</h5>
                                 <div className="form-group">
                                     <Form.Item
                                         name="email"
@@ -87,27 +92,25 @@ class Register extends Component {
                                         ]}>
                                         <Input
                                             className="form-control"
-                                            type="email"
-                                            placeholder="addresse email"
-                                            onChange={(e) => {this.state.email=e.target.value}} value={this.state.email}
+                                            type="text"
+                                            
+                                            placeholder="email" onChange={(e) => {this.state.email=e.target.value}} value={this.state.email}
                                         />
                                     </Form.Item>
-                                </div>
-                                <div className="form-group">
                                     <Form.Item
-                                        name="username"
+                                        name="firstname"
                                         rules={[
                                             {
                                                 required: true,
                                                 message:
-                                                    'Veuillez saisir votre nom d"utlisateur!',
+                                                    'Veuillez saisir votre prénom!',
                                             },
                                         ]}>
                                         <Input
                                             className="form-control"
                                             type="text"
-                                            placeholder="nom d'utilisateur"
-                                            onChange={(e) => {this.state.username=e.target.value}} value={this.state.username}
+                                            
+                                            placeholder="nom" onChange={(e) => {this.state.email=e.target.value}} value={this.state.email}
                                         />
                                     </Form.Item>
                                 </div>
@@ -118,22 +121,35 @@ class Register extends Component {
                                             {
                                                 required: true,
                                                 message:
-                                                    'Veuillez saisir votre mot de passe',
+                                                    'Veuillez saisir votre mot de passe !',
                                             },
                                         ]}>
                                         <Input
                                             className="form-control"
                                             type="password"
-                                            placeholder="mot de passe..."
+                                            placeholder="mot de passe..." 
                                             onChange={(e) => {this.state.password=e.target.value}} value={this.state.password}
                                         />
                                     </Form.Item>
+                                </div>
+                                <div className="form-group">
+                                    <div className="ps-checkbox">
+                                        <input
+                                            className="form-control"
+                                            type="checkbox"
+                                            id="remember-me"
+                                            name="remember-me"
+                                        />
+                                        <label htmlFor="remember-me">
+                                            Se Souvenir De Moi
+                                        </label>
+                                    </div>
                                 </div>
                                 <div className="form-group submit">
                                     <button
                                         type="submit"
                                         className="ps-btn ps-btn--fullwidth">
-                                        S'inscrire
+                                        Se Connecter
                                     </button>
                                 </div>
                             </div>
@@ -141,22 +157,33 @@ class Register extends Component {
                                 <p>Se Connecter Avec:</p>
                                 <ul className="ps-list--social">
                                     <li>
-                                        <a className="facebook" href="#">
+                                        <a
+                                            className="facebook"
+                                            href="#"
+                                            onClick={e =>
+                                                this.handleFeatureWillUpdate(e)
+                                            }>
                                             <i className="fa fa-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a className="google" href="#">
+                                        <a
+                                            className="google"
+                                            href="#"
+                                            onClick={e =>
+                                                this.handleFeatureWillUpdate(e)
+                                            }>
                                             <i className="fa fa-google-plus"></i>
                                         </a>
                                     </li>
+                                  
                                     <li>
-                                        <a className="twitter" href="#">
-                                            <i className="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="instagram" href="#">
+                                        <a
+                                            className="instagram"
+                                            href="#"
+                                            onClick={e =>
+                                                this.handleFeatureWillUpdate(e)
+                                            }>
                                             <i className="fa fa-instagram"></i>
                                         </a>
                                     </li>
@@ -169,8 +196,7 @@ class Register extends Component {
         );
     }
 }
-
 const mapStateToProps = state => {
     return state.auth;
 };
-export default connect(mapStateToProps)(Register);
+export default connect(mapStateToProps)(BecomeVendor);

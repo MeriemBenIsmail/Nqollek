@@ -18,7 +18,7 @@ class MyAccount extends Component {
                                     <div className="ps-widget__header">
                                         <img src="/static/img/users/3.jpg" />
                                         <figure>
-                                            <figcaption>Hello</figcaption>
+                                            <figcaption>Bienvenu</figcaption>
                                             <p>username@gmail.com</p>
                                         </figure>
                                     </div>
@@ -30,23 +30,23 @@ class MyAccount extends Component {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/account/my-account">
-                                                    <a>Orders</a>
+                                                <Link href="/account/orders">
+                                                    <a>Commandes</a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/account/my-account">
+                                                <Link href="/account/">
                                                     <a>Addresses</a>
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link href="/account/my-account">
-                                                    <a>Account Details</a>
+                                                    <a>Détails du compte</a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/account/my-account">
-                                                    <a>Logout</a>
+                                                <Link href="/account/logout">
+                                                    <a>Se Déconnecter</a>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -58,25 +58,23 @@ class MyAccount extends Component {
                             <div className="ps-page__content">
                                 <div className="ps-page__dashboard">
                                     <p>
-                                        Hello <strong>user@gmail.com</strong>!
+                                        Bienvenu <strong>user@gmail.com</strong>!
                                     </p>
                                     <p>
-                                        From your account dashboard you can view
-                                        your{' '}
+                                        Depuis votre dashboard, vous pouvez consulter {' '}
                                         <Link href="/account/orders">
-                                            <a>recent orders</a>
+                                            <a>Commandes récentes</a>
                                         </Link>
-                                        , manage your{' '}
+                                        , gérer vos{' '}
                                         <Link href="/account/user-information">
                                             <a>
-                                                shipping and billing addresses
+                                                adresses de livraison
                                             </a>
                                         </Link>
-                                        , and{' '}
+                                        , et{' '}
                                         <Link href="/account/user-information">
                                             <a>
-                                                edit your password and account
-                                                details
+                                                modifier votre mot de passe et vos informations personnelles
                                             </a>
                                         </Link>
                                         .

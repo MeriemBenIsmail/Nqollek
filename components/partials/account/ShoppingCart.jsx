@@ -41,16 +41,16 @@ class ShoppingCart extends Component {
             <div className="ps-section--shopping ps-shopping-cart">
                 <div className="container">
                     <div className="ps-section__header">
-                        <h1>Shopping Cart</h1>
+                        <h1>Panier</h1>
                     </div>
                     <div className="ps-section__content">
                         <div className="table-responsive">
                             <table className="table ps-table--shopping-cart">
                                 <thead>
                                     <tr>
-                                        <th>Product</th>
-                                        <th>Price</th>
-                                        <th>Quantity</th>
+                                        <th>Produit</th>
+                                        <th>Prix</th>
+                                        <th>Quantité</th>
                                         <th>Total</th>
                                         <th>Action</th>
                                     </tr>
@@ -146,7 +146,7 @@ class ShoppingCart extends Component {
                             <Link href="/shop">
                                 <a>
                                     <i className="icon-arrow-left mr-2"></i>
-                                    Back to Shop
+                                    Retour aux catalogue
                                 </a>
                             </Link>
                         </div>

@@ -144,9 +144,9 @@ const FooterSecond = () => (
                 </div>
             </div>
             <div className="ps-footer__copyright">
-                <p>© 2021 Nqollek. All Rights Reserved</p>
+                <p>© 2021 UTOPIKA. Tout Droits Reservés</p>
                 <p>
-                    <span>We Using Safe Payment For:</span>
+                    <span>Paiement sécurisé accepté:</span>
                     <Link href="/page/blank">
                         <a>
                             <img
