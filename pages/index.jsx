@@ -8,10 +8,10 @@ import HomeAdsColumns from '../components/partials/homepage/home-default/HomeAds
 import ConumerElectronics from '../components/partials/homepage/home-default/ConumerElectronics';
 import Clothings from '../components/partials/homepage/home-default/Clothings';
 import GardenAndKitchen from '../components/partials/homepage/home-default/GardenAndKitchen';
-import HomeAds from '../components/partials/homepage/home-default/HomeAds';
-import DownLoadApp from '../components/partials/commons/DownLoadApp';
-import NewArrivals from '../components/partials/homepage/home-default/NewArrivals';
-import Newletters from '../components/partials/commons/Newletters';
+// import HomeAds from '../components/partials/homepage/home-default/HomeAds';
+// import DownLoadApp from '../components/partials/commons/DownLoadApp';
+// import NewArrivals from '../components/partials/homepage/home-default/NewArrivals';
+// import Newletters from '../components/partials/commons/Newletters';
 import HeaderMobile from '../components/shared/headers/HeaderMobile';
 import NavigationList from '../components/shared/navigation/NavigationList';
 import HomeDefaultDealOfDay from '../components/partials/homepage/home-default/HomeDefaultDealOfDay';
@@ -19,7 +19,6 @@ import HomeDefaultTopCategories from '../components/partials/homepage/home-defau
 import SubscribePopup from '../components/shared/SubscribePopup';
 import { getCollections } from '../store/collection/action';
 import { getBannersBySlugs, getPromotionsBySlugs } from '../store/media/action';
-
 
 class Index extends Component {
     constructor(props) {
@@ -70,18 +69,19 @@ class Index extends Component {
                 <NavigationList />
                 <SubscribePopup active={subscribe} />
                 <main id="homepage-1">
-                    <HomeBanner />
-                    <SiteFeatures />
-                    <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
-                    <HomeAdsColumns />
+                    {/* <HomeBanner /> */}
+
+                    {/* <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" /> */}
+                    {/* <HomeAdsColumns /> */}
                     <HomeDefaultTopCategories />
                     <ConumerElectronics collectionSlug="consumer-electronics" />
                     <Clothings collectionSlug="clothings" />
                     <GardenAndKitchen collectionSlug="garden-and-kitchen" />
-                    <HomeAds />
-                    <DownLoadApp />
-                    <NewArrivals collectionSlug="new-arrivals-products" />
-                    <Newletters />
+                    {/* <HomeAds /> */}
+                    {/* <DownLoadApp /> */}
+                    {/* <NewArrivals collectionSlug="new-arrivals-products" /> */}
+                    {/* <Newletters /> */}
+                    {/* <SiteFeatures /> */}
                 </main>
                 <FooterFullwidth />
             </div>
@@ -89,4 +89,4 @@ class Index extends Component {
     }
 }
 
-export default connect(state => state.collection)(Index);
+export default connect((state) => state.collection)(Index);
