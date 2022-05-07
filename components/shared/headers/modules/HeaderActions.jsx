@@ -14,18 +14,7 @@ class HeaderActions extends Component {
         const { compare, wishlist, auth } = this.props;
         return (
             <div className="header__actions">
-                <Link href="/account/compare">
-                    <a className="header__extra">
-                        <i className="icon-chart-bars"></i>
-                        <span>
-                            <i>
-                                {compare
-                                    ? compare.compareTotal
-                                    : compare.compareTotal}
-                            </i>
-                        </span>
-                    </a>
-                </Link>
+    
                 <Link href="/account/wishlist">
                     <a className="header__extra">
                         <i className="icon-heart"></i>

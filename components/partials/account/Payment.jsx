@@ -47,30 +47,30 @@ class Payment extends Component {
                                             <small>Contact</small>
                                             <p>test@gmail.com</p>
                                             <Link href="/account/checkout">
-                                                <a>Change</a>
+                                                <a>Changer</a>
                                             </Link>
                                         </figure>
                                         <figure>
-                                            <small>Ship to</small>
+                                            <small>Livrer à</small>
                                             <p>
                                                 2015 South Street, Midland,
                                                 Texas
                                             </p>
                                             <Link href="/account/checkout">
-                                                <a>Change</a>
+                                                <a>Changer</a>
                                             </Link>
                                         </figure>
                                     </div>
-                                    <h4>Shipping Method</h4>
+                                    <h4>Méthode de livraison</h4>
                                     <div className="ps-block__panel">
                                         <figure>
                                             <small>
-                                                International Shipping
+                                                Livraison internationalle
                                             </small>
                                             <strong>$20.00</strong>
                                         </figure>
                                     </div>
-                                    <h4>Payment Methods</h4>
+                                    <h4>Méthodes de payment</h4>
 
                                     <div className="ps-block--payment-method">
                                         <div className="ps-block__header">

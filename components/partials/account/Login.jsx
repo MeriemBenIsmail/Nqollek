@@ -1,15 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component , useState} from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 import { login } from '../../../store/auth/action';
-
+import { setCookie } from 'nookies';
+import fetch from 'isomorphic-unfetch'
 import { Form, Input, notification } from 'antd';
 import { connect } from 'react-redux';
 
 class Login extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            email:'',
+            password:''
+        };
     }
 
     static getDerivedStateFromProps(props) {
@@ -28,12 +32,44 @@ class Login extends Component {
         });
     }
 
-    handleLoginSubmit = e => {
-        console.log('test');
-        this.props.dispatch(login());
-        Router.push('/');
+   
 
-    };
+    async handleLoginSubmit()  {
+       
+        const {API_URL} = process.env;
+        const loginInfo = {
+            identifier: this.state.email,
+            password: this.state.password
+        }
+      
+        const loginOp = await fetch(`${API_URL}/api/auth/local`, {
+            method: "POST",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                
+           },
+            body: JSON.stringify(loginInfo)
+        })
+   
+        const loginResponse = await loginOp.json()
+        
+        if(!loginResponse.error) {
+            setCookie(null, 'jwt', loginResponse.jwt, {
+                maxAge: 30* 24 * 60 * 60,
+                path:'/',
+            })
+           
+            this.props.dispatch(login());
+            Router.push('/')
+        }
+        else {
+            console.log(loginResponse)
+        }
+        
+
+    }
+    
 
     render() {
         return (
@@ -59,7 +95,7 @@ class Login extends Component {
                                 <h5>Connectez-Vous à votre compte</h5>
                                 <div className="form-group">
                                     <Form.Item
-                                        name="username"
+                                        name="email"
                                         rules={[
                                             {
                                                 required: true,
@@ -70,7 +106,8 @@ class Login extends Component {
                                         <Input
                                             className="form-control"
                                             type="text"
-                                            placeholder="nom d'utlisateur ou email"
+                                            
+                                            placeholder="email" onChange={(e) => {this.state.email=e.target.value}} value={this.state.email}
                                         />
                                     </Form.Item>
                                 </div>
@@ -87,7 +124,8 @@ class Login extends Component {
                                         <Input
                                             className="form-control"
                                             type="password"
-                                            placeholder="mot de passe..."
+                                            placeholder="mot de passe..." 
+                                            onChange={(e) => {this.state.password=e.target.value}} value={this.state.password}
                                         />
                                     </Form.Item>
                                 </div>
@@ -135,16 +173,7 @@ class Login extends Component {
                                             <i className="fa fa-google-plus"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a
-                                            className="twitter"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
+                                  
                                     <li>
                                         <a
                                             className="instagram"

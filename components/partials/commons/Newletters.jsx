@@ -17,7 +17,7 @@ const Newsletters = ({ layout }) => (
                                 <input
                                     className="form-control"
                                     type="email"
-                                    placeholder="Email address"
+                                    placeholder="Votre adresse email"
                                 />
                                 <button className="ps-btn">S'abonner</button>
                             </div>

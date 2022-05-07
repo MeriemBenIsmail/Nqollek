@@ -25,11 +25,11 @@ class ProductDealOfDay extends Component {
         this.props.dispatch(addItem(product));
     };
 
-    handleAddItemToCompare = e => {
+    /*handleAddItemToCompare = e => {
         e.preventDefault();
         const { product } = this.props;
         this.props.dispatch(addItemToCompare(product));
-    };
+    };*/
 
     handleAddItemToWishlist = e => {
         e.preventDefault();
@@ -94,7 +94,7 @@ class ProductDealOfDay extends Component {
                                 href="#"
                                 data-toggle="tooltip"
                                 data-placement="top"
-                                title="Read More"
+                                title="Ajouter Au Panier"
                                 onClick={this.handleAddItemToCart.bind(this)}>
                                 <i className="icon-bag2"></i>
                             </a>
@@ -104,7 +104,7 @@ class ProductDealOfDay extends Component {
                                 href="#"
                                 data-toggle="tooltip"
                                 data-placement="top"
-                                title="Quick View"
+                                title="Détails"
                                 onClick={this.handleShowQuickView.bind(this)}>
                                 <i className="icon-eye"></i>
                             </a>
@@ -114,14 +114,14 @@ class ProductDealOfDay extends Component {
                                 href="#"
                                 data-toggle="tooltip"
                                 data-placement="top"
-                                title="Add to wishlist"
+                                title="Favoris"
                                 onClick={this.handleAddItemToWishlist.bind(
                                     this
                                 )}>
                                 <i className="icon-heart"></i>
                             </a>
                         </li>
-                        <li>
+                      { /* <li>
                             <a
                                 href="#"
                                 data-toggle="tooltip"
@@ -132,7 +132,7 @@ class ProductDealOfDay extends Component {
                                 )}>
                                 <i className="icon-chart-bars"></i>
                             </a>
-                        </li>
+                        </li>*/}
                     </ul>
                 </div>
                 <div className="ps-product__container">
@@ -142,17 +142,17 @@ class ProductDealOfDay extends Component {
                     <div className="ps-product__content">
                         {product.is_sale === true ? (
                             <p className="ps-product__price sale">
-                                {currency ? currency.symbol : '$'}
+                                {currency ? currency.symbol : 'DT'}
                                 {formatCurrency(product.price)}
                                 <del className="ml-2">
-                                    {currency ? currency.symbol : '$'}
+                                    {currency ? currency.symbol : 'DT'}
                                     {formatCurrency(product.sale_price)}
                                 </del>
                                 <small>18% off</small>
                             </p>
                         ) : (
                             <p className="ps-product__price">
-                                {currency ? currency.symbol : '$'}
+                                {currency ? currency.symbol : 'DT'}
                                 {formatCurrency(product.price)}
                             </p>
                         )}
@@ -166,7 +166,7 @@ class ProductDealOfDay extends Component {
                             <Rating />
                             <span>{product.ratingCount}</span>
                         </div>
-                        <div
+                       {/* <div
                             className="ps-product__progress-bar ps-progress"
                             data-value={product.inventory}>
                             <div className="ps-progress__value">
@@ -189,7 +189,7 @@ class ProductDealOfDay extends Component {
                             ) : (
                                 <p>Sold: {product.inventory}</p>
                             )}
-                        </div>
+                            </div>*/}
                     </div>
                 </div>
                 <Modal

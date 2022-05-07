@@ -51,7 +51,7 @@ class RecentViewedProducts extends Component {
                                     <div className="ps-widget__header">
                                         <img src="/static/img/users/3.jpg" />
                                         <figure>
-                                            <figcaption>Hello</figcaption>
+                                            <figcaption>Bienvenu</figcaption>
                                             <p>username@gmail.com</p>
                                         </figure>
                                     </div>
@@ -80,7 +80,7 @@ class RecentViewedProducts extends Component {
                                                 <Link href="/account/my-account">
                                                     <a>
                                                         <i className="icon-power-switch"></i>
-                                                        Logout
+                                                        Se Déconnecter
                                                     </a>
                                                 </Link>
                                             </li>
@@ -92,7 +92,7 @@ class RecentViewedProducts extends Component {
                         <div className="col-lg-8">
                             <section className="ps-section--account-setting">
                                 <div className="ps-section__content">
-                                    <p>No product here.</p>
+                                    <p>Aucun produit.</p>
                                 </div>
                             </section>
                         </div>

@@ -123,18 +123,7 @@ class Product extends Component {
                                 <i className="icon-heart"></i>
                             </a>
                         </li>
-                        <li>
-                            <a
-                                href="#"
-                                data-toggle="tooltip"
-                                data-placement="top"
-                                title="Compare"
-                                onClick={this.handleAddItemToCompare.bind(
-                                    this
-                                )}>
-                                <i className="icon-chart-bars"></i>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
                 <div className="ps-product__container">

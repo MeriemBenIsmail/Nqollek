@@ -150,7 +150,7 @@ class ProductDetailImageSwatches extends Component {
                         <div className="ps-product__variations">
                             <figure>
                                 <figcaption>
-                                    Color: <strong> Choose an option</strong>
+                                    Couleur: <strong> Choose an option</strong>
                                 </figcaption>
                                 {product.variants.map(variant => {
                                     return (
@@ -175,7 +175,7 @@ class ProductDetailImageSwatches extends Component {
                             </figure>
                             <figure>
                                 <figcaption>
-                                    Size <strong> Choose an option</strong>
+                                    Taille <strong> Choisir une option</strong>
                                 </figcaption>
                                 <div className="ps-variant ps-variant--size">
                                     <span className="ps-variant__tooltip">
@@ -201,7 +201,7 @@ class ProductDetailImageSwatches extends Component {
                         </div>
                         <div className="ps-product__shopping">
                             <figure>
-                                <figcaption>Quantity</figcaption>
+                                <figcaption>Quantité</figcaption>
                                 <div className="form-group--number">
                                     <button className="up">
                                         <i className="fa fa-plus"></i>
@@ -217,10 +217,10 @@ class ProductDetailImageSwatches extends Component {
                                 </div>
                             </figure>
                             <a className="ps-btn ps-btn--black" href="#">
-                                Add to cart
+                                Ajouter au panier
                             </a>
                             <a className="ps-btn" href="#">
-                                Buy Now
+                                Acheter
                             </a>
                             <div className="ps-product__actions">
                                 <a href="#">
@@ -255,15 +255,11 @@ class ProductDetailImageSwatches extends Component {
                             <a className="facebook" href="#">
                                 <i className="fa fa-facebook"></i>
                             </a>
-                            <a className="twitter" href="#">
-                                <i className="fa fa-twitter"></i>
-                            </a>
+                        
                             <a className="google" href="#">
                                 <i className="fa fa-google-plus"></i>
                             </a>
-                            <a className="linkedin" href="#">
-                                <i className="fa fa-linkedin"></i>
-                            </a>
+                  
                             <a className="instagram" href="#">
                                 <i className="fa fa-instagram"></i>
                             </a>

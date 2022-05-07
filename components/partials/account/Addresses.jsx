@@ -51,7 +51,7 @@ class Addresses extends Component {
                                     <div className="ps-widget__header">
                                         <img src="/static/img/users/3.jpg" />
                                         <figure>
-                                            <figcaption>Hello</figcaption>
+                                            <figcaption>Bienvenu</figcaption>
                                             <p>username@gmail.com</p>
                                         </figure>
                                     </div>
@@ -80,7 +80,7 @@ class Addresses extends Component {
                                                 <Link href="/account/my-account">
                                                     <a>
                                                         <i className="icon-power-switch"></i>
-                                                        Logout
+                                                        Se Déconnecter
                                                     </a>
                                                 </Link>
                                             </li>
@@ -96,7 +96,7 @@ class Addresses extends Component {
                                         <div className="col-md-6 col-12">
                                             <figure className="ps-block--address">
                                                 <figcaption>
-                                                    Billing address
+                                                    Adresse de livraison
                                                 </figcaption>
                                                 <div className="ps-block__content">
                                                     <p>
@@ -104,27 +104,12 @@ class Addresses extends Component {
                                                         Type Of Address Yet.
                                                     </p>
                                                     <Link href="/account/edit-address">
-                                                        <a>Edit</a>
+                                                        <a>Modifier</a>
                                                     </Link>
                                                 </div>
                                             </figure>
                                         </div>
-                                        <div className="col-md-6 col-12">
-                                            <figure className="ps-block--address">
-                                                <figcaption>
-                                                    Shipping address
-                                                </figcaption>
-                                                <div className="ps-block__content">
-                                                    <p>
-                                                        You Have Not Set Up This
-                                                        Type Of Address Yet.
-                                                    </p>
-                                                    <Link href="/account/edit-address">
-                                                        <a>Edit</a>
-                                                    </Link>
-                                                </div>
-                                            </figure>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>

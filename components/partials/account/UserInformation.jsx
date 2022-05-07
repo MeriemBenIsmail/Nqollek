@@ -3,11 +3,9 @@ import Link from 'next/link';
 import { Form, Input, Radio, DatePicker } from 'antd';
 
 class UserInformation extends Component {
-    constructor(props) {
-        super(props);
-    }
-
+    
     render() {
+        console.log(this.props)
         const accountLinks = [
             {
                 text: 'Account Information',
@@ -41,7 +39,9 @@ class UserInformation extends Component {
                 icon: 'icon-heart',
             },
         ];
+        
         return (
+            
             <section className="ps-my-account ps-page--account">
                 <div className="container">
                     <div className="row">
@@ -51,8 +51,8 @@ class UserInformation extends Component {
                                     <div className="ps-widget__header">
                                         <img src="/static/img/users/3.jpg" />
                                         <figure>
-                                            <figcaption>Hello</figcaption>
-                                            <p>username@gmail.com</p>
+                                            <figcaption>Bienvenu</figcaption>
+                                            <p></p>
                                         </figure>
                                     </div>
                                     <div className="ps-widget__content">
@@ -80,7 +80,7 @@ class UserInformation extends Component {
                                                 <Link href="/account/my-account">
                                                     <a>
                                                         <i className="icon-power-switch"></i>
-                                                        Logout
+                                                        Se Déconnecter
                                                     </a>
                                                 </Link>
                                             </li>
@@ -95,7 +95,7 @@ class UserInformation extends Component {
                                     className="ps-form--account-setting"
                                     onSubmit={this.handleLoginSubmit}>
                                     <div className="ps-form__header">
-                                        <h3>Account Information</h3>
+                                        <h3>Informations du compte</h3>
                                     </div>
                                     <div className="ps-form__content">
                                         <div className="form-group">
@@ -106,13 +106,13 @@ class UserInformation extends Component {
                                                     {
                                                         required: false,
                                                         message:
-                                                            'Please input your name!',
+                                                            'veuillez saisir votre nom!',
                                                     },
                                                 ]}>
                                                 <Input
                                                     className="form-control"
-                                                    type="text"
-                                                    placeholder="Username or email address"
+                                                    type="email"
+                                                   
                                                 />
                                             </Form.Item>
                                         </div>
@@ -126,13 +126,13 @@ class UserInformation extends Component {
                                                             {
                                                                 required: false,
                                                                 message:
-                                                                    'Please input your name!',
+                                                                    'Veuillez saisir votre numéro de téléphone!',
                                                             },
                                                         ]}>
                                                         <Input
                                                             className="form-control"
                                                             type="text"
-                                                            placeholder="Enter your phone number"
+                                                            placeholder="Veuillez saisir votre numéro de téléphone"
                                                         />
                                                     </Form.Item>
                                                 </div>
@@ -161,7 +161,7 @@ class UserInformation extends Component {
                                         <div className="row">
                                             <div className="col-sm-6">
                                                 <div className="form-group">
-                                                    <label>Birthday</label>
+                                                    <label>Date de naissance</label>
                                                     <DatePicker />
                                                 </div>
                                             </div>
@@ -179,10 +179,10 @@ class UserInformation extends Component {
                                                         ]}>
                                                         <Radio.Group>
                                                             <Radio value="male">
-                                                                Male
+                                                                Homme
                                                             </Radio>
                                                             <Radio value="female">
-                                                                Female
+                                                                Femme
                                                             </Radio>
                                                         </Radio.Group>
                                                     </Form.Item>
@@ -191,7 +191,7 @@ class UserInformation extends Component {
                                         </div>
                                         <div className="form-group submit">
                                             <button className="ps-btn">
-                                                Update
+                                                Mettre à jour
                                             </button>
                                         </div>
                                     </div>
@@ -206,3 +206,4 @@ class UserInformation extends Component {
 }
 
 export default UserInformation;
+

@@ -18,30 +18,30 @@ class MyAccount extends Component {
                                 method="get">
                                 <ul className="ps-tab-list">
                                     <li className="active">
-                                        <a href="#sign-in">Login</a>
+                                        <a href="#sign-in">Se Connecter</a>
                                     </li>
                                     <li>
-                                        <a href="#register">Register</a>
+                                        <a href="#register">S'inscrire</a>
                                     </li>
                                 </ul>
                                 <div className="ps-tabs">
                                     <div className="ps-tab active" id="sign-in">
                                         <div className="ps-form__content">
-                                            <h5>Log In Your Account</h5>
+                                            <h5>Connectez-Vous à votre compte</h5>
                                             <div className="form-group">
                                                 <input
                                                     className="form-control"
                                                     type="text"
-                                                    placeholder="Username or email address"
+                                                    placeholder="Nom d'utilisateur ou email"
                                                 />
                                             </div>
                                             <div className="form-group form-forgot">
                                                 <input
                                                     className="form-control"
                                                     type="text"
-                                                    placeholder="Password"
+                                                    placeholder="Mot De Passe"
                                                 />
-                                                <a href="">Forgot?</a>
+                                                <a href="">Mot de passe oublié?</a>
                                             </div>
                                             <div className="form-group">
                                                 <div className="ps-checkbox">
@@ -52,32 +52,32 @@ class MyAccount extends Component {
                                                         name="remember-me"
                                                     />
                                                     <label htmlFor="remember-me">
-                                                        Rememeber me
+                                                        Se Souvenir de moi ?
                                                     </label>
                                                 </div>
                                             </div>
                                             <div className="form-group submit">
                                                 <button className="ps-btn ps-btn--fullwidth">
-                                                    Login
+                                                    Se Connecter
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="ps-tab" id="register">
                                         <div className="ps-form__content">
-                                            <h5>Register An Account</h5>
+                                            <h5>Créer Un Compte</h5>
                                             <div className="form-group">
                                                 <input
                                                     className="form-control"
                                                     type="text"
-                                                    placeholder="Username or email address"
+                                                    placeholder="Nom d'utilisateur ou email"
                                                 />
                                             </div>
                                             <div className="form-group">
                                                 <input
                                                     className="form-control"
                                                     type="text"
-                                                    placeholder="Password"
+                                                    placeholder="Mot de passe"
                                                 />
                                             </div>
                                             <div className="ps-form__decs">
@@ -89,7 +89,7 @@ class MyAccount extends Component {
                                                         name="user-type"
                                                     />
                                                     <label htmlFor="user-type-1">
-                                                        I am a customer
+                                                        Je suis un client
                                                     </label>
                                                 </div>
                                                 <div className="ps-radio">
@@ -100,7 +100,7 @@ class MyAccount extends Component {
                                                         name="user-type"
                                                     />
                                                     <label htmlFor="user-type-2">
-                                                        I am a vendor
+                                                        Je suis propriétaire d'une boutique
                                                     </label>
                                                 </div>
                                                 <p>
@@ -112,7 +112,7 @@ class MyAccount extends Component {
                                             </div>
                                             <div className="form-group submit">
                                                 <button className="ps-btn ps-btn--fullwidth">
-                                                    Register
+                                                    Créer
                                                 </button>
                                             </div>
                                         </div>

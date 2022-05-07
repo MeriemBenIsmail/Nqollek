@@ -8,6 +8,8 @@ import HeaderMobile from '../../components/shared/headers/HeaderMobile';
 import NavigationList from '../../components/shared/navigation/NavigationList';
 
 const LoginPage = () => {
+    const {API_URL} = process.env
+    
     return (
         <div className="site-content">
             <HeaderDefault />

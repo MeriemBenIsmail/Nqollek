@@ -6,7 +6,7 @@ const AccountMenuSidebar = ({ data }) => (
         <div className="ps-widget__header">
             <img src="/static/img/users/3.jpg" />
             <figure>
-                <figcaption>Hello</figcaption>
+                <figcaption>Bienvenu</figcaption>
                 <p>username@gmail.com</p>
             </figure>
         </div>
@@ -24,7 +24,7 @@ const AccountMenuSidebar = ({ data }) => (
                 ))}
                 <li>
                     <Link href="/account/my-account">
-                        <a>Logout</a>
+                        <a>Se Déconnecter</a>
                     </Link>
                 </li>
             </ul>

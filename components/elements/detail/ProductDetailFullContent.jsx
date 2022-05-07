@@ -77,7 +77,7 @@ class ProductDetailFullContent extends React.Component {
 
                         <div className="ps-product__shopping">
                             <figure>
-                                <figcaption>Quantity</figcaption>
+                                <figcaption>Quantité</figcaption>
                                 <div className="form-group--number">
                                     <button
                                         className="up"
@@ -105,13 +105,13 @@ class ProductDetailFullContent extends React.Component {
                                 className="ps-btn ps-btn--gray"
                                 href="#"
                                 onClick={this.handleAddItemToCart.bind(this)}>
-                                Add to cart
+                                Ajouter au panier
                             </a>
                             <a
                                 className="ps-btn"
                                 href="#"
                                 onClick={this.handleAddItemToCart.bind(this)}>
-                                Buy Now
+                                Acheter
                             </a>
                             <div className="ps-product__actions">
                                 <a
@@ -120,16 +120,9 @@ class ProductDetailFullContent extends React.Component {
                                         this
                                     )}>
                                     <i className="icon-heart mr-2"></i>
-                                    Add to wishlist
+                                    Ajouter au favoris
                                 </a>
-                                <a
-                                    href="#"
-                                    onClick={this.handleAddItemToCompare.bind(
-                                        this
-                                    )}>
-                                    <i className="icon-chart-bars mr-2"></i>
-                                    Compare
-                                </a>
+                                
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ class Shipping extends Component {
             <div className="ps-checkout ps-section--shopping">
                 <div className="container">
                     <div className="ps-section__header">
-                        <h1>Shipping Information</h1>
+                        <h1>Informations de livraison</h1>
                     </div>
                     <div className="ps-section__content">
                         <div className="row">
@@ -30,7 +30,7 @@ class Shipping extends Component {
                                             <small>Contact</small>
                                             <p>test@gmail.com</p>
                                             <Link href="/account/checkout">
-                                                <a>Change</a>
+                                                <a>Changer</a>
                                             </Link>
                                         </figure>
                                         <figure>
@@ -40,7 +40,7 @@ class Shipping extends Component {
                                                 Texas
                                             </p>
                                             <Link href="/account/checkout">
-                                                <a>Change</a>
+                                                <a>Changer</a>
                                             </Link>
                                         </figure>
                                     </div>
@@ -57,12 +57,12 @@ class Shipping extends Component {
                                         <Link href="/account/checkout">
                                             <a>
                                                 <i className="icon-arrow-left mr-2"></i>
-                                                Return to information
+                                                Retour aux informations
                                             </a>
                                         </Link>
                                         <Link href="/account/payment">
                                             <a className="ps-btn">
-                                                Continue to payment
+                                                Continuer au payment
                                             </a>
                                         </Link>
                                     </div>
@@ -74,7 +74,7 @@ class Shipping extends Component {
                                         <div className="ps-block__content">
                                             <figure>
                                                 <figcaption>
-                                                    <strong>Product</strong>
+                                                    <strong>Produit</strong>
                                                     <strong>total</strong>
                                                 </figcaption>
                                             </figure>

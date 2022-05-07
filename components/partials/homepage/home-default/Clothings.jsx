@@ -85,7 +85,7 @@ class Clothings extends Component {
                             ))}
                             <li>
                                 <Link href="/shop">
-                                    <a>View All</a>
+                                    <a>Voir plus</a>
                                 </Link>
                             </li>
                         </ul>
