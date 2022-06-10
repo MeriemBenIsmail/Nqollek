@@ -61,7 +61,7 @@ class Clothings extends Component {
             <div className="ps-product-list ps-garden-kitchen">
                 <div className="ps-container">
                     <div className="ps-section__header">
-                        <h3>Apparels & Clothings</h3>
+                        <h3>Vetements Personnalisés & Upcycling</h3>
                         <ul className="ps-section__links">
                             {sectionLinks.map(link => (
                                 <li
@@ -85,7 +85,7 @@ class Clothings extends Component {
                             ))}
                             <li>
                                 <Link href="/shop">
-                                    <a>View All</a>
+                                    <a>Voir plus</a>
                                 </Link>
                             </li>
                         </ul>

@@ -8,14 +8,14 @@ const MoreCategories = ({ data }) => (
             <ul className="ps-section__links">
                 <li>
                     <Link href="/shop">
-                        <a href="shop-grid.html">Clothing & Apparel</a>
+                        <a href="shop-grid.html">Accessoires & pierres précises</a>
                     </Link>
                 </li>
                 <li>
-                    <a href="shop-grid.html">Garden & Kitchen</a>
+                    <a href="shop-grid.html">Mugs personnalisés</a>
                 </li>
                 <li>
-                    <a href="shop-grid.html">Consumer Electrics</a>
+                    <a href="shop-grid.html">Vetements & upcycling</a>
                 </li>
             </ul>
         </div>

@@ -25,17 +25,17 @@ class CategoriesBestSeller extends Component {
                     <ul className="ps-section__links">
                         <li>
                             <Link href="/shop">
-                                <a>Clothing & Apparel</a>
+                                <a>Accessoires & Pierres Précieuses</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/shop">
-                                <a>Garden & Kitchen</a>
+                                <a>Mugs personnalisés</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/shop">
-                                <a>Consumer Electrics</a>
+                                <a>Vetements & upcycling</a>
                             </Link>
                         </li>
                     </ul>

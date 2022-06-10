@@ -75,9 +75,9 @@ class Index extends Component {
                     <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
                     <HomeAdsColumns />
                     {/*<HomeDefaultTopCategories />*/}
-                    <ConumerElectronics collectionSlug="consumer-electronics" />
-                    <Clothings collectionSlug="clothings" />
-                    <GardenAndKitchen collectionSlug="garden-and-kitchen" />
+                    <ConumerElectronics collectionSlug="accessoires-et-pierres-précieuses" />
+                    <Clothings collectionSlug="vetements-et-upcycling" />
+                    <GardenAndKitchen collectionSlug="mugs-personnalisés" />
                     <HomeAds />
                     <DownLoadApp />
                     <NewArrivals collectionSlug="new-arrivals-products" />

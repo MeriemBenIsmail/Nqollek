@@ -9,13 +9,13 @@
         {
             "id": "2",
             "thumbnail": "/static/img/categories/shop/2.jpg",
-            "title": "Garden & Kitchen",
+            "title": "Mugs personnalisés",
             "links": ["Cookware", "Decoration", "Furniture", "Garden Tools"]
         },
         {
             "id": "3",
             "thumbnail": "/static/img/categories/shop/3.jpg",
-            "title": "Consumer Electrics",
+            "title": "Vetements & upcycling",
             "links": [
                 "Air Conditioners",
                 "Audios & Theaters",
@@ -26,37 +26,37 @@
         {
             "id": "4",
             "thumbnail": "/static/img/categories/shop/4.jpg",
-            "title": "Health & Beauty",
+            "title": "Maquillage soins et beauté",
             "links": ["Equipments", "Hair Care", "Perfumer", "Skin Care"]
         },
         {
             "id": "5",
             "thumbnail": "/static/img/categories/shop/5.jpg",
-            "title": "Computers & Technologies",
+            "title": "Accessoires smartphone",
             "links": ["Desktop PC", "Laptop", "Smartphones", "Accessories"]
         },
         {
             "id": "6",
             "thumbnail": "/static/img/categories/shop/6.jpg",
-            "title": "Jewelry & Watches",
+            "title": "Accessoires & pierres préciuses",
             "links": ["Gemstones Jewelry", "Men's Watches", "Women's Watches"]
         },
         {
             "id": "7",
             "thumbnail": "/static/img/categories/shop/7.jpg",
-            "title": "Phone & Accessories",
+            "title": "Mugs personnalisés",
             "links": ["Iphone 8", "Iphone X", "Samsung Note 8", "Samsung S8"]
         },
         {
             "id": "8",
             "thumbnail": "/static/img/categories/shop/8.jpg",
-            "title": "Sport & Outdoor",
+            "title": "Eco friendly",
             "links": ["Freezer Burn", "Frigde Cooler", "Wine Cabinets"]
         }
     ],
     "shop_categories_catalog": [
         {
-            "text": "Clothing & Apparel",
+            "text": "Vetemeents & upcycling",
             "url": "/shop",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
@@ -88,7 +88,7 @@
             ]
         },
         {
-            "text": "Garden & Kitchen",
+            "text": "Genderless",
             "url": "/shop",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
@@ -124,7 +124,7 @@
             ]
         },
         {
-            "text": "Consumer Electrics",
+            "text": "Portraits",
             "url": "/shop",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
@@ -264,7 +264,7 @@
             ]
         },
         {
-            "text": "Computers & Technologies",
+            "text": "Livres",
             "url": "/shop",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
@@ -284,7 +284,7 @@
             ]
         },
         {
-            "text": "Jewelry & Watches",
+            "text": "Fleurs",
             "url": "/shop",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",
@@ -304,7 +304,7 @@
             ]
         },
         {
-            "text": "Phones & Accessories",
+            "text": "Accessoires smartphone",
             "url": "/shop",
             "extraClass": "menu-item-has-children",
             "subClass": "sub-menu",

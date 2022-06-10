@@ -32,7 +32,7 @@ class GardenAndKitchen extends Component {
         const products = getColletionBySlug(collections, collectionSlug);
         const sectionLinks = [
             {
-                title: 'New Arrivals',
+                title: 'Nouvel Arrivage',
                 name: 'newArrivals',
                 slug: 'consumer_electronics',
             },
@@ -41,11 +41,8 @@ class GardenAndKitchen extends Component {
                 name: 'bestSeller',
                 slug: 'fullwidth-kitchen-best-sellers',
             },
-            {
-                title: 'Most Popular',
-                name: 'mostPopular',
-                slug: 'fullwidth-kitchen-most-popular',
-            },
+           
+        
         ];
         let sectionItems;
         if (currentCollection !== 'newArrivals') {
@@ -61,7 +58,7 @@ class GardenAndKitchen extends Component {
             <div className="ps-product-list ps-garden-kitchen">
                 <div className="ps-container">
                     <div className="ps-section__header">
-                        <h3>Home, Garden & Kitchen</h3>
+                        <h3>Mugs Personnalisés</h3>
                         <ul className="ps-section__links">
                             {sectionLinks.map(link => (
                                 <li
@@ -85,7 +82,7 @@ class GardenAndKitchen extends Component {
                             ))}
                             <li>
                                 <Link href="/shop">
-                                    <a>View All</a>
+                                    <a>Voir plus</a>
                                 </Link>
                             </li>
                         </ul>

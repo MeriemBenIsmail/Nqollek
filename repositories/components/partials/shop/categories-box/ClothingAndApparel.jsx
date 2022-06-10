@@ -4,7 +4,7 @@ import Link from 'next/link';
 const ClothingAndApparel = ({ data }) => (
     <div className="ps-block--categories-box">
         <div className="ps-block__header">
-            <h3>Consumer Electronics</h3>
+            <h3>Accessoires & Pierres précieuses</h3>
             <ul>
                 <li>
                     <Link href="/shop">

@@ -3,61 +3,33 @@ import Link from 'next/link';
 const Links = {
     AccesoiresEtPierresPrécieuses: [
         {
-            text: 'Air Conditioners',
+            text: 'product1',
             url: '/shop'
         },
         {
-            text: 'Audios & Theaters',
+            text: 'product2',
             url: '/shop'
         },
         {
-            text: 'Car Electronics',
-            url: '/shop'
-        },
-        {
-            text: 'Office Electronics',
-            url: '/shop'
-        },
-        {
-            text: 'TV Televisions',
-            url: '/shop'
-        },
-        {
-            text: 'Washing Machines',
+            text: 'product3',
             url: '/shop'
         }
     ],
-    clothingAndApparel: [
+    MugsPerosnnalisés: [
         {
-            text: 'Printers',
+            text: 'mug1',
             url: '/shop'
         },
         {
-            text: 'Projectors',
+            text: 'mug2',
             url: '/shop'
         },
         {
-            text: 'Scanners',
-            url: '/shop'
-        },
-        {
-            text: 'Store &amp; Business',
-            url: '/shop'
-        },
-        {
-            text: '4K Ultra HD TVs',
-            url: '/shop'
-        },
-        {
-            text: 'LED TVs',
-            url: '/shop'
-        },
-        {
-            text: 'OLED TVs',
+            text: 'mug3',
             url: '/shop'
         }
     ],
-    gardenAndKitchen: [
+    EcoFriendly: [
         {
             text: 'Cookware',
             url: '/shop'
@@ -87,7 +59,7 @@ const Links = {
             url: '/shop'
         }
     ],
-    healthAndBeauty: [
+    MaquillageEtSoins: [
         {
             text: 'Hair Care',
             url: '/shop'
@@ -117,7 +89,7 @@ const Links = {
             url: '/shop'
         }
     ],
-    jewelryAndWatch: [
+    AccessoiresEtBijouterie: [
         {
             text: 'Necklace',
             url: '/shop'
@@ -143,7 +115,7 @@ const Links = {
             url: '/shop'
         }
     ],
-    computerAndTechnology: [
+    AccessoiresSmartphone: [
         {
             text: 'Desktop PC',
             url: '/shop'
@@ -186,40 +158,40 @@ const FooterLinks = () => (
             ))}
         </p>
         <p>
-            <strong>Clothing &amp; Apparel:</strong>
-            {Links.clothingAndApparel.map(item => (
+            <strong>Mugs Personnalisés:</strong>
+            {Links.MugsPerosnnalisés.map(item => (
                 <Link href={item.url} key={item.text}>
                     <a>{item.text}</a>
                 </Link>
             ))}
         </p>
         <p>
-            <strong>Home, Garden &amp; Kitchen:</strong>
-            {Links.gardenAndKitchen.map(item => (
+            <strong>Eco Friendly</strong>
+            {Links.EcoFriendly.map(item => (
                 <Link href={item.url} key={item.text}>
                     <a>{item.text}</a>
                 </Link>
             ))}
         </p>
         <p>
-            <strong>Health &amp; Beauty:</strong>
-            {Links.healthAndBeauty.map(item => (
+            <strong>Maquillage ,Soins &amp; Beauté </strong>
+            {Links.MaquillageEtSoins.map(item => (
                 <Link href={item.url} key={item.text}>
                     <a>{item.text}</a>
                 </Link>
             ))}
         </p>
         <p>
-            <strong>Jewelry &amp; Watches:</strong>
-            {Links.jewelryAndWatch.map(item => (
+            <strong>Accessoires &amp; Bijouterie</strong>
+            {Links.AccessoiresEtBijouterie.map(item => (
                 <Link href={item.url} key={item.text}>
                     <a>{item.text}</a>
                 </Link>
             ))}
         </p>
         <p>
-            <strong>Computer &amp; Technologies:</strong>
-            {Links.computerAndTechnology.map(item => (
+            <strong>Accessoires &amp; Smartphone:</strong>
+            {Links.AccessoiresSmartphone.map(item => (
                 <Link href={item.url} key={item.text}>
                     <a>{item.text}</a>
                 </Link>

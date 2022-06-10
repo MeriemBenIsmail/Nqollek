@@ -42,7 +42,7 @@ class Login extends Component {
             password: this.state.password
         }
       
-        const loginOp = await fetch(`${API_URL}/api/auth/local`, {
+        const loginOp = await fetch(`http://localhost:1337/api/auth/local`, {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
