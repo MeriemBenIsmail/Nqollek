@@ -79,7 +79,7 @@ class ProductWide extends Component {
                                         ? `${baseUrl}${product.thumbnail.url}`
                                         : `${product.thumbnail.url}`
                                 }
-                                alt="REDSYS"
+                                alt="UTOPIKA"
                             />
                         </a>
                     </Link>

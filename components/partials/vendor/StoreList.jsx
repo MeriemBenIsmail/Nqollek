@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Select, Rate } from 'antd';
 import Rating from '../../elements/Rating';
+import Link from 'next/link';
 
 const { Option } = Select;
 
@@ -91,12 +92,14 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/3.jpg"
-                                                        alt="REDSYS"
+                                                        alt="UTOPIKA"
                                                     />
                                                 </a>
-                                                <a className="ps-btn" href="#">
+                                                <Link href={"/vendor/1"}>
+                                                <a className="ps-btn" >
                                                     Visit Store
                                                 </a>
+                                                </Link>
                                             </div>
                                             <h4>GoPro</h4>
                                             <Rating/>
@@ -133,7 +136,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/4.jpg"
-                                                        alt="REDSYS"
+                                                        alt="UTOPIKA"
                                                     />
                                                 </a>
                                                 <a className="ps-btn" href="#">
@@ -175,7 +178,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/5.jpg"
-                                                        alt="REDSYS"
+                                                        alt="UTOPIKA"
                                                     />
                                                 </a>
                                                 <a className="ps-btn" href="#">
@@ -217,7 +220,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/5.jpg"
-                                                        alt="REDSYS"
+                                                        alt="UTOPIKA"
                                                     />
                                                 </a>
                                                 <a className="ps-btn" href="#">

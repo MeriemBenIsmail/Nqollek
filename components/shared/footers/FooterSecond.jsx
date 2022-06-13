@@ -151,7 +151,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/1.jpg"
-                                alt="REDSYS"
+                                alt="UTOPIKA"
                             />
                         </a>
                     </Link>
@@ -159,7 +159,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/2.jpg"
-                                alt="REDSYS"
+                                alt="UTOPIKA"
                             />
                         </a>
                     </Link>
@@ -167,7 +167,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/3.jpg"
-                                alt="REDSYS"
+                                alt="UTOPIKA"
                             />
                         </a>
                     </Link>
@@ -175,7 +175,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/4.jpg"
-                                alt="REDSYS"
+                                alt="UTOPIKA"
                             />
                         </a>
                     </Link>
@@ -183,7 +183,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/5.jpg"
-                                alt="REDSYS"
+                                alt="UTOPIKA"
                             />
                         </a>
                     </Link>

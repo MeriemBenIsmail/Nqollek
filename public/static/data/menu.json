@@ -12,11 +12,7 @@
             },
             {
                 "text": "Créer une boutique",
-                "url": "/vendor/become-a-vendor"
-            },
-            {
-                "text": "S'inscrire",
-                "url": "/account/register"
+                "url": "/vendor"
             },
             {
                 "text": "Blog",
@@ -25,6 +21,10 @@
             {
                 "text": "A Propos",
                 "url": "/page/about-us"
+            },
+            {
+                "text": "Comment ça marche",
+                "url": "/milestone"
             }
            
           

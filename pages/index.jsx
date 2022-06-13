@@ -20,6 +20,10 @@ import SubscribePopup from '../components/shared/SubscribePopup';
 import { getCollections } from '../store/collection/action';
 import { getBannersBySlugs, getPromotionsBySlugs } from '../store/media/action';
 import { parseCookies } from 'nookies';
+import VendorAbout from '~/components/partials/vendor/VendorAbout';
+import VendorBanner from '~/components/partials/vendor/VendorBanner';
+import VendorFaqs from '~/components/partials/vendor/VendorFaqs';
+
 
 
 class Index extends Component {
@@ -75,17 +79,15 @@ class Index extends Component {
                 <NavigationList />
                 <SubscribePopup active={subscribe} />
                 <main id="homepage-1">
-                    <HomeBanner />
+                    <VendorBanner/>
                     <SiteFeatures />
                     <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
-                    <HomeAdsColumns />
-                    <HomeDefaultTopCategories />
                     <ConumerElectronics collectionSlug="consumer-electronics" />
                     <Clothings collectionSlug="clothings" />
-                    <GardenAndKitchen collectionSlug="garden-and-kitchen" />
-                   
+            <VendorAbout/>
+
                   
-                   
+                   <VendorFaqs/>
                     <Newletters />
                 </main>
                 <FooterFullwidth />

@@ -8,6 +8,7 @@ import OurTeam from '../../components/partials/page/about-us/OurTeam';
 import AboutAwards from '../../components/partials/page/about-us/AboutAwards';
 import HeaderMobile from '../../components/shared/headers/HeaderMobile';
 import NavigationList from '../../components/shared/navigation/NavigationList';
+import VendorTestimonials from '~/components/partials/vendor/VendorTestimonials';
 
 const AboutUsPage = () => {
     const breadCrumb = [
@@ -30,6 +31,7 @@ const AboutUsPage = () => {
                 <OurTeam />
                 <AboutAwards />
             </div>
+            <VendorTestimonials/>
             <Newsletter layout="container" />
             <FooterDefault />
         </div>

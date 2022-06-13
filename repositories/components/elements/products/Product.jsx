@@ -84,7 +84,7 @@ class Product extends Component {
                                             ? `${baseUrl}${product.thumbnail.url}`
                                             : product.thumbnail.url
                                     }
-                                    alt="REDSYS"
+                                    alt="UTOPIKA"
                                 />
                             </LazyLoad>
                         </a>

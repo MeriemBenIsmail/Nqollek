@@ -14,13 +14,13 @@ class HeaderMobile extends Component {
             <header className="header header--mobile">
                 <div className="header__top">
                     <div className="header__left">
-                        <p>Welcome to REDSYS Online Shopping Store !</p>
+                        <p>Welcome to UTOPIKA Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on REDSYS</a>
+                                    <a>Sell on UTOPIKA</a>
                                 </Link>
                             </li>
                             <li>
@@ -43,7 +43,7 @@ class HeaderMobile extends Component {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/logo_light.png"
-                                    alt="REDSYS"
+                                    alt="UTOPIKA"
                                 />
                             </a>
                         </Link>

@@ -8,11 +8,11 @@ const VendorBanner = () => (
         <div className="ps-vendor-banner">
             <div className="container">
                 <h2>
-                    Millions Of Shoppers Can’t Wait To See What You Have In
+                    Thousands Of Shoppers Can’t Wait To See What You Have In
                     Store
                 </h2>
                 <Link href="/vendor/store-list">
-                    <a className="ps-btn ps-btn--lg" href="#">
+                    <a className="ps-btn ps-btn--lg" href="/vendor">
                         Start Selling
                     </a>
                 </Link>

@@ -20,7 +20,7 @@ class VendorStore extends Component {
                                 <div className="ps-block__thumbnail">
                                     <img
                                         src="/static/img/vendor/vendor-store.jpg"
-                                        alt="REDSYS"
+                                        alt="UTOPIKA"
                                     />
                                 </div>
                                 <div className="ps-block__container">
@@ -130,36 +130,7 @@ class VendorStore extends Component {
                                     </form>
                                 </div>
                             </div>
-                            <div className="ps-vendor-best-seller">
-                                <div className="ps-section__header">
-                                    <h3>Best Seller items</h3>
-                                    <div className="ps-section__nav">
-                                        <a
-                                            className="ps-carousel__prev"
-                                            href="#vendor-bestseller">
-                                            <i className="icon-chevron-left"></i>
-                                        </a>
-                                        <a
-                                            className="ps-carousel__next"
-                                            href="#vendor-bestseller">
-                                            <i className="icon-chevron-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="ps-section__content">
-                                    <Slider
-                                        {...carouselStandard}
-                                        className="ps-carousel">
-                                        {relatedProduct &&
-                                            relatedProduct.map((product) => (
-                                                <ProductOffline
-                                                    product={product}
-                                                    key={product.id}
-                                                />
-                                            ))}
-                                    </Slider>
-                                </div>
-                            </div>
+                          
                             <VendorProducts />
                         </div>
                     </div>

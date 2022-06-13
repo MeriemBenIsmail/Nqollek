@@ -23,7 +23,9 @@ class HeaderActions extends Component {
                         </span>
                     </a>
                 </Link>
+                <Link href="/account/shopping-cart">
                 <MiniCart />
+                </Link>
                 {auth.isLoggedIn && Boolean(auth.isLoggedIn) === true ? (
                     <AccountQuickLinks isLoggedIn={true} />
                 ) : (

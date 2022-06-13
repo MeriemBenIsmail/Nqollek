@@ -10,7 +10,10 @@ class BecomeVendor extends Component {
         super(props);
         this.state = {
             email:'',
-            password:''
+            description:'',
+            addresse:'',
+            whatsapp:'',
+            ville:''
         };
     }
 
@@ -30,7 +33,7 @@ class BecomeVendor extends Component {
         const {API_URL} = process.env;
         const loginInfo = {
             identifier: this.state.email,
-            password: this.state.password
+            addresse: this.state.addresse
         }
       
         const loginOp = await fetch(`${API_URL}/api/auth/local`, {
@@ -65,21 +68,20 @@ class BecomeVendor extends Component {
     render() {
         return (
             <div className="ps-my-account">
+                    
                 <div className="container">
+                <div className="ps-section__header">
+                    <h3>Créer une Boutique</h3>
+               
+            </div>
+               
                     <Form
-                        className="ps-form--account"
+                        className="ps-form--order-tracking"
                         onFinish={this.handleSubmit.bind(this)}>
-                        <ul className="ps-tab-list">
-                            <li className="active">
-                              
-                                    Créer Une Boutique
-                          
-                            </li>
-                          
-                        </ul>
-                        <div className="ps-tab active" id="sign-in">
+                        <div className="ps-tab active" id="sign-in" >
                             <div className="ps-form__content">
-                                <h5>Devenez un vendeur nqollek</h5>
+                                <h5>Créer votre propre boutique et devenez un vendeur au sein de UTOPIKA
+</h5>
                                 <div className="form-group">
                                     <Form.Item
                                         name="email"
@@ -98,25 +100,26 @@ class BecomeVendor extends Component {
                                         />
                                     </Form.Item>
                                     <Form.Item
-                                        name="firstname"
+                                        name="description"
                                         rules={[
                                             {
                                                 required: true,
                                                 message:
-                                                    'Veuillez saisir votre prénom!',
+                                                    'Veuillez saisir le nom et description de votre projet!',
                                             },
                                         ]}>
-                                        <Input
+                                        <textarea
+                                            style={{height: "12em"}}
                                             className="form-control"
                                             type="text"
                                             
-                                            placeholder="nom" onChange={(e) => {this.state.email=e.target.value}} value={this.state.email}
+                                            placeholder="Description" onChange={(e) => {this.state.description=e.target.value}} value={this.state.description}
                                         />
                                     </Form.Item>
                                 </div>
                                 <div className="form-group form-forgot">
                                     <Form.Item
-                                        name="password"
+                                        name="addresse"
                                         rules={[
                                             {
                                                 required: true,
@@ -125,10 +128,47 @@ class BecomeVendor extends Component {
                                             },
                                         ]}>
                                         <Input
+
                                             className="form-control"
-                                            type="password"
+                                            type="addresse"
                                             placeholder="mot de passe..." 
-                                            onChange={(e) => {this.state.password=e.target.value}} value={this.state.password}
+                                            onChange={(e) => {this.state.addresse=e.target.value}} value={this.state.addresse}
+                                        />
+                                    </Form.Item>
+                                </div>
+                                <div className="form-group form-forgot">
+                                    <Form.Item
+                                        name="whatsapp"
+                                        rules={[
+                                            {
+                                                required: true,
+                                                message:
+                                                    'Veuillez saisir votre whatsapp !',
+                                            },
+                                        ]}>
+                                        <Input
+                                            className="form-control"
+                                            type="whatsapp"
+                                            placeholder="whatsapp..." 
+                                            onChange={(e) => {this.state.whatsapp=e.target.value}} value={this.state.whatsapp}
+                                        />
+                                    </Form.Item>
+                                </div>
+                                <div className="form-group form-forgot">
+                                    <Form.Item
+                                        name="ville"
+                                        rules={[
+                                            {
+                                                required: true,
+                                                message:
+                                                    'Veuillez saisir votre ville !',
+                                            },
+                                        ]}>
+                                        <Input
+                                            className="form-control"
+                                            type="addresse"
+                                            placeholder="mot de passe..." 
+                                            onChange={(e) => {this.state.ville=e.target.value}} value={this.state.ville}
                                         />
                                     </Form.Item>
                                 </div>
