@@ -23,13 +23,9 @@ const vendor = () => {
             <HeaderDefault />
             <HeaderMobile />
             <NavigationList />
-            <VendorMileStone/>
-            <VendorStore/>
-            <VendorTestimonials/>
             <div className="ps-page--my-account">
                 <BecomeVendorForm />
             </div>
-            <StoreList/>
             <Newsletters layout="container" />
             <FooterDefault />
         </div>

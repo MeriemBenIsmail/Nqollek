@@ -43,7 +43,7 @@ class SubscribePopup extends Component {
                                     Profitez de <strong>25%</strong> Promotion
                                 </h4>
                                 <p>
-                                    Abonnez-vous à UTOPIKA  mailing list{' '}
+                                    Abonnez-vous à NqollekHaja  mailing list{' '}
                                     <br /> pour recevoir des notifications sur des nouveaux arrivage, des offres spécials
                                     <br /> et nos promotions.
                                 </p>

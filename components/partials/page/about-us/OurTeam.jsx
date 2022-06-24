@@ -9,7 +9,7 @@ const OurTeam = () => (
             <div className="ps-section__content" style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
                 <figure>
                     <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/1.jpeg" alt="UTOPIKA" />
+                        <img src="/static/img/users/our-team/1.jpeg" alt="NqollekHaja" />
                         <div className="ps-block__content" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                             <h4>Yasmine Ansari</h4>
                             <p>CEO Founder</p>
@@ -35,7 +35,7 @@ const OurTeam = () => (
                 </figure>
                 <figure>
                     <div className="ps-block--ourteam" >
-                        <img src="/static/img/users/our-team/2.jpeg" alt="UTOPIKA" />
+                        <img src="/static/img/users/our-team/2.jpeg" alt="NqollekHaja" />
                         <div className="ps-block__content" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                             <h4>Sarah Guessmi</h4>
                             <p>Operation Manager</p>
@@ -61,7 +61,7 @@ const OurTeam = () => (
                 </figure>
                 <figure>
                     <div className="ps-block--ourteam">
-                        <img src="/static/img/users/our-team/1.jpeg" alt="UTOPIKA" />
+                        <img src="/static/img/users/our-team/1.jpeg" alt="NqollekHaja" />
                         <div className="ps-block__content"  style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                             <h4>Yasmine Ansari</h4>
                             <p>CEO Founder</p>
@@ -87,7 +87,7 @@ const OurTeam = () => (
                 </figure>
                 <figure>
                     <div className="ps-block--ourteam" >
-                        <img src="/static/img/users/our-team/2.jpeg" alt="UTOPIKA" />
+                        <img src="/static/img/users/our-team/2.jpeg" alt="NqollekHaja" />
                         <div className="ps-block__content" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                             <h4>Sarah Guessmi</h4>
                             <p>Operation Manager</p>

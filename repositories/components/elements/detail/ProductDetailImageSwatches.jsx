@@ -74,7 +74,7 @@ class ProductDetailImageSwatches extends Component {
                                                         <a href={item.image}>
                                                             <img
                                                                 src={item.image}
-                                                                alt="UTOPIKA"
+                                                                alt="NqollekHaja"
                                                             />
                                                         </a>
                                                     </div>
@@ -101,7 +101,7 @@ class ProductDetailImageSwatches extends Component {
                                             <div className="item" key={item.id}>
                                                 <img
                                                     src={item.image}
-                                                    alt="UTOPIKA"
+                                                    alt="NqollekHaja"
                                                 />
                                             </div>
                                         ))}
@@ -167,7 +167,7 @@ class ProductDetailImageSwatches extends Component {
                                             </span>
                                             <img
                                                 src={variant.image}
-                                                alt="UTOPIKA"
+                                                alt="NqollekHaja"
                                             />
                                         </div>
                                     );

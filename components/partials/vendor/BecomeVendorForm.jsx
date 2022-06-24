@@ -71,7 +71,7 @@ class BecomeVendor extends Component {
                     
                 <div className="container">
                 <div className="ps-section__header">
-                    <h3>Créer une Boutique</h3>
+                    <h3 style={{display: "center"}}>Créer une Boutique</h3>
                
             </div>
                
@@ -80,7 +80,7 @@ class BecomeVendor extends Component {
                         onFinish={this.handleSubmit.bind(this)}>
                         <div className="ps-tab active" id="sign-in" >
                             <div className="ps-form__content">
-                                <h5>Créer votre propre boutique et devenez un vendeur au sein de UTOPIKA
+                                <h5>Créer votre propre boutique et devenez un vendeur au sein de NqollekHaja
 </h5>
                                 <div className="form-group">
                                     <Form.Item
@@ -124,14 +124,14 @@ class BecomeVendor extends Component {
                                             {
                                                 required: true,
                                                 message:
-                                                    'Veuillez saisir votre mot de passe !',
+                                                    'Veuillez saisir votre addresse !',
                                             },
                                         ]}>
                                         <Input
 
                                             className="form-control"
                                             type="addresse"
-                                            placeholder="mot de passe..." 
+                                            placeholder="Addresse..." 
                                             onChange={(e) => {this.state.addresse=e.target.value}} value={this.state.addresse}
                                         />
                                     </Form.Item>
@@ -166,69 +166,23 @@ class BecomeVendor extends Component {
                                         ]}>
                                         <Input
                                             className="form-control"
-                                            type="addresse"
-                                            placeholder="mot de passe..." 
+                                            type="ville"
+                                            placeholder="ville..." 
                                             onChange={(e) => {this.state.ville=e.target.value}} value={this.state.ville}
                                         />
                                     </Form.Item>
                                 </div>
-                                <div className="form-group">
-                                    <div className="ps-checkbox">
-                                        <input
-                                            className="form-control"
-                                            type="checkbox"
-                                            id="remember-me"
-                                            name="remember-me"
-                                        />
-                                        <label htmlFor="remember-me">
-                                            Se Souvenir De Moi
-                                        </label>
-                                    </div>
-                                </div>
+                            
                                 <div className="form-group submit">
                                     <button
                                         type="submit"
                                         className="ps-btn ps-btn--fullwidth">
-                                        Se Connecter
+                                        S'inscrire
                                     </button>
                                 </div>
                             </div>
-                            <div className="ps-form__footer">
-                                <p>Se Connecter Avec:</p>
-                                <ul className="ps-list--social">
-                                    <li>
-                                        <a
-                                            className="facebook"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            className="google"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                  
-                                    <li>
-                                        <a
-                                            className="instagram"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                           
+                             
                         </div>
                     </Form>
                 </div>

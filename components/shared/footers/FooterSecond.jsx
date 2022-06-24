@@ -144,14 +144,14 @@ const FooterSecond = () => (
                 </div>
             </div>
             <div className="ps-footer__copyright">
-                <p>© 2021 UTOPIKA. Tout Droits Reservés</p>
+                <p>© 2021 NqollekHaja. Tout Droits Reservés</p>
                 <p>
                     <span>Paiement sécurisé accepté:</span>
                     <Link href="/page/blank">
                         <a>
                             <img
                                 src="/static/img/payment-method/1.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Link>
@@ -159,7 +159,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/2.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Link>
@@ -167,7 +167,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/3.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Link>
@@ -175,7 +175,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/4.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Link>
@@ -183,7 +183,7 @@ const FooterSecond = () => (
                         <a>
                             <img
                                 src="/static/img/payment-method/5.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Link>

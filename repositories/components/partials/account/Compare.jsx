@@ -75,7 +75,7 @@ class Compare extends Component {
                                                                         src={
                                                                             product.thumbnail
                                                                         }
-                                                                        alt="UTOPIKA"
+                                                                        alt="NqollekHaja"
                                                                     />
                                                                 </a>
                                                             </Link>

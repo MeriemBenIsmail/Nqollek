@@ -83,7 +83,7 @@ class ProductDealOfDay extends Component {
                     <Link href="/product/[pid]" as={`/product/${product.id}`}>
                         <a>
                             <LazyLoad>
-                                <img src={thumbnail} alt="UTOPIKA" />
+                                <img src={thumbnail} alt="NqollekHaja" />
                             </LazyLoad>
                         </a>
                     </Link>

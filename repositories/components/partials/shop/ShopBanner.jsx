@@ -18,8 +18,8 @@ class ShopBanner extends Component {
         return (
             <div className="ps-shop-banner">
                 <Slider {...carouselSetting} className="ps-carousel">
-                    <img src="/static/img/slider/shop-default/1.jpg" alt="UTOPIKA" />
-                    <img src="/static/img/slider/shop-default/2.jpg" alt="UTOPIKA" />
+                    <img src="/static/img/slider/shop-default/1.jpg" alt="NqollekHaja" />
+                    <img src="/static/img/slider/shop-default/2.jpg" alt="NqollekHaja" />
                 </Slider>
             </div>
         );

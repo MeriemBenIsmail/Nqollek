@@ -11,7 +11,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/1.jpg" alt="UTOPIKA" />
+                        <img src="/static/img/categories/1.jpg" alt="NqollekHaja" />
                         <p>Art & Décoration</p>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/2.jpg" alt="UTOPIKA" />
+                        <img src="/static/img/categories/2.jpg" alt="NqollekHaja" />
                         <p>Accessoires & Pierres Précieuses</p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/3.jpg" alt="UTOPIKA" />
+                        <img src="/static/img/categories/3.jpg" alt="NqollekHaja" />
                         <p>Mugs Personnalisés</p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/4.jpg" alt="UTOPIKA" />
+                        <img src="/static/img/categories/4.jpg" alt="NqollekHaja" />
                         <p>Vetements Personnalisés & Upcycling</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/5.jpg" alt="UTOPIKA" />
+                        <img src="/static/img/categories/5.jpg" alt="NqollekHaja" />
                         <p>Maquillage & Soins</p>
                     </div>
                 </div>

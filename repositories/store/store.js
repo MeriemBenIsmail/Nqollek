@@ -37,7 +37,7 @@ const bindMiddleware = middleware => {
 };
 
 const persistConfig = {
-    key: 'UTOPIKA',
+    key: 'NqollekHaja',
     storage : storage,
     whitelist: ['cart', 'compare', 'auth', 'wishlist'],
 };

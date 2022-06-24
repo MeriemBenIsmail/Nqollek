@@ -8,12 +8,12 @@ const DownloadApp = () => (
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                             <div className="ps-block__thumbnail">
-                                <img src="/static/img/app.png" alt="UTOPIKA" />
+                                <img src="/static/img/app.png" alt="NqollekHaja" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                             <div className="ps-block__content">
-                                <h3>Download UTOPIKA App Now!</h3>
+                                <h3>Download NqollekHaja App Now!</h3>
                                 <p>
                                     Shopping fastly and easily more with our app. Get a link to
                                     download the app on your phone
@@ -33,10 +33,10 @@ const DownloadApp = () => (
                                 </form>
                                 <p className="download-link">
                                     <a href="#">
-                                        <img src="/static/img/google-play.png" alt="UTOPIKA" />
+                                        <img src="/static/img/google-play.png" alt="NqollekHaja" />
                                     </a>
                                     <a href="#">
-                                        <img src="/static/img/app-store.png" alt="UTOPIKA" />
+                                        <img src="/static/img/app-store.png" alt="NqollekHaja" />
                                     </a>
                                 </p>
                             </div>

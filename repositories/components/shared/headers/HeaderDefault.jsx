@@ -31,7 +31,7 @@ class HeaderDefault extends Component {
                                 <a className="ps-logo">
                                     <img
                                         src="/static/img/logo_light.png"
-                                        alt="UTOPIKA"
+                                        alt="NqollekHaja"
                                     />
                                 </a>
                             </Link>

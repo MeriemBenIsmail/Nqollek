@@ -14,13 +14,13 @@ class HeaderMobile extends Component {
             <header className="header header--mobile">
                 <div className="header__top">
                     <div className="header__left">
-                        <p>Welcome to UTOPIKA Online Shopping Store !</p>
+                        <p>Welcome to NqollekHaja Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor">
-                                    <a>Sell on UTOPIKA</a>
+                                    <a>Sell on NqollekHaja</a>
                                 </Link>
                             </li>
                             <li>

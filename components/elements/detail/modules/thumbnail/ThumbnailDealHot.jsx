@@ -87,7 +87,7 @@ class ThumbnailDealHot extends Component {
                                                     ? `${baseUrl}${variant.url}`
                                                     : variant.url
                                             }
-                                            alt="UTOPIKA"
+                                            alt="NqollekHaja"
                                         />
                                     </a>
                                 </div>

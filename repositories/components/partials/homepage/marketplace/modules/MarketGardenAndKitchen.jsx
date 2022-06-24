@@ -72,19 +72,19 @@ class MarketGardenAndKitchen extends Component {
                         <a>
                             <img
                                 src="/static/img/slider/home-3/kitchen-1.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                         <a>
                             <img
                                 src="/static/img/slider/home-3/kitchen-2.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                         <a>
                             <img
                                 src="/static/img/slider/home-3/kitchen-3.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Slider>

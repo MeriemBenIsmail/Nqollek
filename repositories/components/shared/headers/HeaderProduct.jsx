@@ -60,7 +60,7 @@ class HeaderProduct extends Component {
                                 <a className="ps-logo">
                                     <img
                                         src="/static/img/logo_light.png"
-                                        alt="UTOPIKA"
+                                        alt="NqollekHaja"
                                     />
                                 </a>
                             </Link>
@@ -93,7 +93,7 @@ class HeaderProduct extends Component {
                                             ? `${baseUrl}${singleProduct.thumbnail.url}`
                                             : singleProduct.thumbnail.url
                                     }
-                                    alt="UTOPIKA"
+                                    alt="NqollekHaja"
                                 />
                             </div>
                             <div className="ps-product__wrapper">

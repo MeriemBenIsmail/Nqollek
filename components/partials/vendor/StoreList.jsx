@@ -92,7 +92,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/3.jpg"
-                                                        alt="UTOPIKA"
+                                                        alt="NqollekHaja"
                                                     />
                                                 </a>
                                                 <Link href={"/vendor/1"}>
@@ -136,7 +136,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/4.jpg"
-                                                        alt="UTOPIKA"
+                                                        alt="NqollekHaja"
                                                     />
                                                 </a>
                                                 <a className="ps-btn" href="#">
@@ -178,7 +178,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/5.jpg"
-                                                        alt="UTOPIKA"
+                                                        alt="NqollekHaja"
                                                     />
                                                 </a>
                                                 <a className="ps-btn" href="#">
@@ -220,7 +220,7 @@ const StoreList = () => (
                                                 <a className="ps-block__user" href="#">
                                                     <img
                                                         src="/static/img/vendor/store/user/5.jpg"
-                                                        alt="UTOPIKA"
+                                                        alt="NqollekHaja"
                                                     />
                                                 </a>
                                                 <a className="ps-btn" href="#">

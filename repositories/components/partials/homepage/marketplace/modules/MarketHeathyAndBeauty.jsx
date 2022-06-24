@@ -72,19 +72,19 @@ class MarketHeathyAndBeauty extends Component {
                         <a>
                             <img
                                 src="/static/img/slider/home-3/healthy-1.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                         <a>
                             <img
                                 src="/static/img/slider/home-3/healthy-2.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                         <a>
                             <img
                                 src="/static/img/slider/home-3/healthy-3.jpg"
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </a>
                     </Slider>

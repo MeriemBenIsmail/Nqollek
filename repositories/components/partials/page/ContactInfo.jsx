@@ -13,8 +13,8 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Contact Directly</h4>
                             <p>
-                                <a href="mailto:contact@UTOPIKA.com">
-                                    contact@UTOPIKA.com
+                                <a href="mailto:contact@NqollekHaja.com">
+                                    contact@NqollekHaja.com
                                 </a>
                                 <span>(+004) 912-3548-07</span>
                             </p>
@@ -36,7 +36,7 @@ const ContactInfo = () => (
                             <h4>Work With Us</h4>
                             <p>
                                 <span>Send your CV to our email:</span>
-                                <a href="#">career@UTOPIKA.com</a>
+                                <a href="#">career@NqollekHaja.com</a>
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Customer Service</h4>
                             <p>
-                                <a href="#">customercare@UTOPIKA.com</a>
+                                <a href="#">customercare@NqollekHaja.com</a>
                                 <span>(800) 843-2446</span>
                             </p>
                         </div>
@@ -53,7 +53,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Media Relations</h4>
                             <p>
-                                <a href="#">media@UTOPIKA.com</a>
+                                <a href="#">media@NqollekHaja.com</a>
                                 <span>(801) 947-3564</span>
                             </p>
                         </div>
@@ -62,7 +62,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Vendor Support</h4>
                             <p>
-                                <a href="#">vendorsupport@UTOPIKA.com</a>
+                                <a href="#">vendorsupport@NqollekHaja.com</a>
                                 <span>(801) 947-3100</span>
                             </p>
                         </div>

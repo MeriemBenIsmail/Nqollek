@@ -9,14 +9,14 @@ const FooterWidgets = () => (
             <div className="widget_content">
                 <Link href="/">
                                     <a className="ps-logo" >
-                                        <h1>UTOPIKA</h1>
+                                        <h1>NqollekHaja</h1>
                                     </a>
                 </Link>
                 <p>Call us 24/7</p>
                 <h3>1800 97 97 69</h3>
                 <p>
                     502 New Design Str, Melbourne, Australia <br />
-                    <a href="mailto:contact@UTOPIKA.co">contact@Nqollek.co</a>
+                    <a href="mailto:contact@NqollekHaja.co">contact@Nqollek.co</a>
                 </p>
                 <ul className="ps-list--social">
                     <li>
@@ -68,7 +68,7 @@ const FooterWidgets = () => (
             <h4 className="widget-title">A PROPOS</h4>
             <div className="widget_content">
                 <p>
-                “UTOPIKA” est une marketplace 
+                “NqollekHaja” est une marketplace 
                 d’expériences et de cadeaux en ligne.
                 Nous croyons fermement en vous, jeunes talents. Nous avons
                 foi dans le potentiel créatif des Tunisiens. C’est pour toutes ces

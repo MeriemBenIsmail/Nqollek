@@ -16,7 +16,7 @@ const ProductCart = ({ product }) => {
                                         ? `${baseUrl}${product.thumbnail.url}`
                                         : product.thumbnail.url
                                 }
-                                alt="UTOPIKA"
+                                alt="NqollekHaja"
                             />
                         </LazyLoad>
                     </a>
